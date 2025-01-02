@@ -73,11 +73,11 @@ Cela permettra de socialiser les étudiant-es à son utilisation.
 
 Sur un total de 100 points:
 
-## Participation en classe (10/100)
+## Participation en classe (15/100)
 
 **10% des points** seront alloués à **la participation en classe**. L'entraide entre les étudiant-es est encouragée (évaluation et correction de code sur `GitHub` ou lors des ateliers).
 
-## Travaux pratiques (20/100)
+## Travaux pratiques (25/100)
 
 **20% des points** seront alloués **aux travaux pratiques**. 
 Les étudiant-es devront remettre 4 travaux pratiques qui permettront d'évaluer leur évolution à différentes étapes de la session. 
@@ -87,15 +87,15 @@ Les jours de remise seront dans le calendrier du cours.
 
 - Introduction à `GitHub` (**5 points**)
 
-- Combiner des données de sondages (**5 points**)
+- Combiner des données de sondages (**10 points**)
 
-- Analyse de données textuelles (**5 points**)
+- Analyse de données textuelles (**10 points**)
 
 - Webscraping (**5 points**)
 
-## Travaux de session (70/100)
+## Travaux de session (60/100)
 
-### Travail de mi-session (15/100)
+### Travail de mi-session (20/100)
 
 **15% des points** seront alloués à la remise d'un **plan de recherche de votre travail de session de 5 pages**. 
 Le plan de recherche permettra d'avoir un regard du chargé de cours sur l'évolution du travail de session et de corriger la trajectoire de ce dernier si nécessaire. 
@@ -107,14 +107,6 @@ Ce travail peut également être la base de votre travail de session final.
 **40% des points** seront alloués à **votre travail de session individuel pouvant aller de 10 à 15 pages**. 
 Ce dernier consistera en une recherche complète avec présentation de la question de recherche, les raisons motivant cette dernière, la présentation des données utilisées, la ou les méthode-s mobilisée-s, l'analyse des données et de la présentation des conclusions de l'étude. 
 La ou les méthode-s utilisée-s pour analyser les données n'ont pas besoin d'être poussée-s, une plus grande attention sera portée sur les données collectées, la transformation effectuée sur ces dernières et leur présentation.
-
-## Présentation orale (15/1000)
-
-**15% des points** seront alloués à la présentation orale de **votre travail de session**. 
-La présentation de votre travail de session vous amènera à parler un peu plus de vos données, des conclusions de vos recherches, mais également du cheminement par lequel vous êtes passé, afin d'arriver aux dernières étapes du projet. 
-Les présentations seront de 10 à 15 minutes avec 10 minutes de questions de l'audience et s'échelonneront sur deux périodes du cours. 
-Un support visuel est requis pour les présentations orales. 
-Il est attendu que tous les étudiant-es soient présent-es aux présentations orales.
 
 # Ouvrage obligatoire
 
