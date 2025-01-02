@@ -2,7 +2,6 @@
 title: "Introduction aux mégadonnées en sciences sociales (FAS 1001)"
 author:
   - "Hiver 2025 \\ "
-#  - "Nadjim Fréchet"
 format: pdf
 urlcolor: red
 header-includes:
@@ -28,7 +27,7 @@ header-includes:
 <!--\pagestyle{empty} --->
 
 Ce cours ne demande aucun prérequis en statistiques avancées ou en programmation, mais avoir des connaissances au préalable demeure un atout. 
-Il est fortement conseillé de suivre en parallèle le cours [FAS 1003](https://florencevdubois.github.io/teaching.html) - *Visualisation des données*, car la visualisation graphique demeurera un élément important dans la présentation de vos travaux. 
+Il est fortement conseillé de suivre en parallèle le cours [FAS 1003](https://admission.umontreal.ca/cours-et-horaires/cours/fas-1003) - *Visualisation des données*, car la visualisation graphique demeurera un élément important dans la présentation de vos travaux. 
 Ce cours priorise un enseignement avec des ateliers afin de permettre aux étudiant-es de se pratiquer à la programmation, de poser des questions au chargé de cours et d'effectuer leur travail de mi-session et de fin de session.
 
 # Description du cours et objectifs
