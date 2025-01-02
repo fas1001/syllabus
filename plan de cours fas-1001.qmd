@@ -1,0 +1,295 @@
+---
+title: "Introduction aux mégadonnées en sciences sociales (FAS 1001)"
+author:
+  - "Hiver 2025 \\ "
+#  - "Nadjim Fréchet"
+format: pdf
+urlcolor: red
+header-includes:
+  - \usepackage{authblk}
+---
+
+<!-- \thispagestyle{empty} Remove page numbers --->
+
+**Horaire du cours:** Jeudi, 8h30 - 11h29
+
+**Local de cours:** pavillon Marie-Victorin local G-415_555B
+
+**Disponibilité:** Sur rendez-vous
+
+**Courriel:** [lomf0\@ulaval.ca](mailto:lomf0@ulaval.ca)
+
+\rule{\textwidth}{2pt}
+
+<!-- Line --->
+
+# Prérequis
+
+<!--\pagestyle{empty} --->
+
+Ce cours ne demande aucun prérequis en statistiques avancées ou en programmation, mais avoir des connaissances au préalable demeure un atout. 
+Il est fortement conseillé de suivre en parallèle le cours [FAS 1003](https://florencevdubois.github.io/teaching.html) - *Visualisation des données*, car la visualisation graphique demeurera un élément important dans la présentation de vos travaux. 
+Ce cours priorise un enseignement avec des ateliers afin de permettre aux étudiant-es de se pratiquer à la programmation, de poser des questions au chargé de cours et d'effectuer leur travail de mi-session et de fin de session.
+
+# Description du cours et objectifs
+
+Jamais autant de données n'ont été disponibles pour comprendre les comportements humains. 
+De nouveaux outils de recherche nous permettent désormais de quantifier des données difficilement analysables auparavant, tels que de larges corpus de textes, des images ou des audios en provenance de vidéos. 
+Néanmoins, comment collecter, traiter et analyser ces nouvelles données? 
+Comment combiner ces nouvelles données avec celles déjà largement utilisées en sciences sociales comme les sondages? 
+Quels sont les enjeux techniques et éthiques que soulèvent l'utilisation de ces données en recherche dans le contexte d'un développement important de l'intelligence artificielle et de l'application croissante de l'apprentissage par machines en sciences sociales? 
+Ce cours aborde ces nombreux enjeux avec une ***approche pratique*** à l'utilisation des mégadonnées en sciences sociales.
+
+À la fin de ce cours, les objectifs suivants seront remplis:
+
+-   Avoir une connaissance globale des différentes sources de données disponibles pour étudier les phénomènes humains.
+
+-   Développer l'autonomie nécessaire pour collecter, gérer et analyser quantitativement des bases de données et les présenter avec un projet de recherche les mobilisant.
+
+-   Faire preuve d'une compréhension des enjeux entourant la mobilisation et l'utilisation de volumineuses bases de données en sciences sociales.
+
+# Pédagogie
+
+Le langage de programmation utilisé pour ce cours est `R`. 
+Ce dernier est téléchargeable gratuitement [ici](https://cran.r-project.org/). 
+Bien que plusieurs options soient possibles, il vous est également demandé de télécharger `RStudio` [ici](https://posit.co/download/rstudio-desktop/). 
+RStudio est l'environnement de développement intégré de prédilection pour coder en `R`. 
+Il vous permettra d'éditer et de déboguer plus facilement votre code en plus de vous donner les outils nécessaires pour transformer, prévisualiser et analyser vos données efficacement. 
+Certains étudiant-es ont signalé être plus à l'aise d'utiliser le langage de programmation `Python`. 
+Si vous vous sentez plus à l'aise d'utiliser ce dernier, il est possible de le faire lors de vos travaux de session. 
+Cependant, les capacités du chargé de cours à vous aider seront plus limitées. 
+Cela est à prendre en considération. 
+Les étudiant-es devront, si ce n'est pas déjà fait, créer un compte [`GitHub`](https://github.com/) lors du premier cours, afin de remettre leurs codes de travaux pratiques et de travaux de session. 
+`GitHub` est un service web d'hébergement et de gestion de développement de logiciels qui est largement utilisé en industrie pour le partage de codes. 
+Cela permettra de socialiser les étudiant-es à son utilisation.
+
+- Le bon déroulement de ce cours nécessite que vous ayez un ordinateur, notamment pour les nombreux ateliers pratiques lors des classes. Si vous n'avez pas d'ordinateur, une solution sera trouvée, afin que vous puissiez participer aux activités en classe.
+
+- Généralement, le cours comporte une heure et demie d'enseignement magistral, une pause de 15 minutes et une heure d'atelier en classe. Le cours magistral abordera les lectures et autres ressources obligatoires à consulter avant le cours ainsi que le contenu du jour. Il est attendu une présence des étudiant-es aux cours, car nos ateliers en classe seront importants pour comprendre la matière puis pour avancer dans ses travaux de session.
+
+- Il y aura également la présence de plusieurs personnes invitées ayant des expériences concrètes de recherche avec des mégadonnées à l'intérieur et à l'extérieur du milieu académique. Les présentations seront discutées au début du cours en plus des lectures/vidéos et autres sources que vous devez consulter avant chacun d'entre eux. Lorsqu'un-e invité-e sera présent-e, la partie magistrale du cours sera légèrement moins longue. Les présentations des invité-es dureront environ 30 minutes avec une période de questions de 15 minutes.
+
+# Évaluations
+
+Sur un total de 100 points:
+
+## Participation en classe (10/100)
+
+**10% des points** seront alloués à **la participation en classe**. L'entraide entre les étudiant-es est encouragée (évaluation et correction de code sur `GitHub` ou lors des ateliers).
+
+## Travaux pratiques (20/100)
+
+**20% des points** seront alloués **aux travaux pratiques**. 
+Les étudiant-es devront remettre 4 travaux pratiques qui permettront d'évaluer leur évolution à différentes étapes de la session. 
+Les travaux pratiques devront être mis sur votre compte `GitHub` **une journée avant le cours suivant, soit lundi 23h59**. 
+Vous pouvez commencer ou même terminer vos travaux pratiques lors des ateliers qui sont également des périodes pour avancer vos travaux de session. 
+Les jours de remise seront dans le calendrier du cours.
+
+- Introduction à `GitHub` (**5 points**)
+
+- Combiner des données de sondages (**5 points**)
+
+- Analyse de données textuelles (**5 points**)
+
+- Webscraping (**5 points**)
+
+## Travaux de session (70/100)
+
+### Travail de mi-session (15/100)
+
+**15% des points** seront alloués à la remise d'un **plan de recherche de votre travail de session de 5 pages**. 
+Le plan de recherche permettra d'avoir un regard du chargé de cours sur l'évolution du travail de session et de corriger la trajectoire de ce dernier si nécessaire. 
+Le plan de recherche consistera principalement en la présentation de votre question de recherche, les raisons motivant votre recherche, les données que vous comptez utiliser et la ou les méthode-s mobilisée-s. 
+Ce travail peut également être la base de votre travail de session final.
+
+### Travail de session (40/100)
+
+**40% des points** seront alloués à **votre travail de session individuel pouvant aller de 10 à 15 pages**. 
+Ce dernier consistera en une recherche complète avec présentation de la question de recherche, les raisons motivant cette dernière, la présentation des données utilisées, la ou les méthode-s mobilisée-s, l'analyse des données et de la présentation des conclusions de l'étude. 
+La ou les méthode-s utilisée-s pour analyser les données n'ont pas besoin d'être poussée-s, une plus grande attention sera portée sur les données collectées, la transformation effectuée sur ces dernières et leur présentation.
+
+## Présentation orale (15/1000)
+
+**15% des points** seront alloués à la présentation orale de **votre travail de session**. 
+La présentation de votre travail de session vous amènera à parler un peu plus de vos données, des conclusions de vos recherches, mais également du cheminement par lequel vous êtes passé, afin d'arriver aux dernières étapes du projet. 
+Les présentations seront de 10 à 15 minutes avec 10 minutes de questions de l'audience et s'échelonneront sur deux périodes du cours. 
+Un support visuel est requis pour les présentations orales. 
+Il est attendu que tous les étudiant-es soient présent-es aux présentations orales.
+
+# Ouvrage obligatoire
+
+Le livre de référence du cours sera celui du Professeur Rohan Alexander de l'Université de Toronto [*Telling Stories with Data*](https://tellingstorieswithdata.com/) et disponible gratuitement sur son site web.
+
+# Ouvrage ressource
+
+Pour un livre ressource en méthodes quantitatives, il est conseillé de consulter le livre du Professeur Vincent Arel Bundock [*Analyse causale et méthodes quantitatives*](https://pum.umontreal.ca/catalogue/analyse_causale_et_methodes_quantitatives) disponible gratuitement sur le site des Presses de l'Université de Montréal.
+
+# Calendrier
+
+## Cours 1 (9 janvier 2024) : Introduction et présentation du plan de cours.
+
+-   Lectures pour le prochain cours: Lire les chapitres [3](https://tellingstorieswithdata.com/03-workflow.html) et [4](https://tellingstorieswithdata.com/04-writing_research.html).
+
+-   Bonus: **Vous pouvez lire si intéressé(e)** les chapitres [1](https://tellingstorieswithdata.com/01-introduction.html) et [2](https://tellingstorieswithdata.com/02-drinking_from_a_fire_hose.html).
+
+## Cours 2 (16 janvier 2024) : Outils de communication et de collaboration en recherche.
+
+-   Description: Introduction à `GitHub` et `Quarto`.
+
+-   Lectures pour le prochain cours: Lire la section 8.3 du chapitre [8](https://tellingstorieswithdata.com/08-hunt.html). Lire également Breton, Cutler, Lachance et Mierke-Zatwarnicki (2017), *Telephone versus online survey modes for election studies: Comparing Canadian public opinion and vote choice in the 2015 federal election*, dans la *Revue Canadienne de Science Politique*. Visionner ce [vidéo](https://www.youtube.com/watch?app=desktop&v=5SybR3KiBMw&ab_channel=TLDRBusiness) qui montre un exemple cocasse d'une recherche avec sondage qui souligne les forces et les limites de ce type de données.
+
+-   Bonus: **Vous pouvez lire si intéressé(e)** Zaller et Feldman (1992), *A Simple Theory of the Survey Response: Answering Questions versus Revealing Preferences*, dans *l'American Journal of Political Science* sur les réponses données lors des sondages. Vous pouvez également lire Ansolabehere, Rodden et Snyder (2008), *The Strength of Issues: Using Multiple Measures to Gauge Preference Stability, Ideological Constraint, and Issue Voting*, sur les échelles de mesure pour réduire les erreurs en analyse de sondages. Ces lectures seront utiles pour comprendre la matière du prochain cours.
+
+## Cours 3 (23 janvier 2024) : Données de sondages.
+
+-   Description: Utilisation, avantages et inconvénients, structuration de bases de données, transformation de variables, variables latentes, expériences par sondage et quasi-expériences.
+
+-   Lecture pour le prochain cours: Lire Grimmer, Roberts, et Stewart (2021). *Machine Learning for Social Science: An Agnostic Approach.*, dans *Annual Review of Political Science*.
+
+## Cours 4 (30 janvier 2024) : Machine Learning.
+
+-   Description: Entraînement de modèles, algorithmes et place de l'IA en sciences sociales.
+
+-   Invitée: Professeure [Catherine Ouellet](https://www.catherineouellet.com/) du département de science politique de l'Université de Montréal et co-créatrice de l'application Datagotchi.
+
+-   Lectures pour le prochain cours: Lire le texte de Grimmer, et Stewart (2013) *Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts* dans *Political Analysis*. Lire également le chapitre [17](https://tellingstorieswithdata.com/16-text.html).
+
+## Cours 5 (6 février 2024) : Analyses textuelles automatisées partie 1.
+
+-   Description: Données tirées de texte, analyses du dictionnaires, analyses supervisées.
+
+## Cours 6 (13 février 2024) : Analyses textuelles automatisées partie 2.
+
+-   Description: Analyses non-supervisées, word embedding, machine learning et autres.
+
+-   Lectures pour le prochain cours: Lire le texte de Chetty et collègues (2022), *Social capital II: determinants of economic connectedness* dans *Nature*. Bien important de lire ***Social capital II*** et non I.
+
+-   Bonus: **Vous pouvez lire si intéressé(e)** Barbera (2015), *Birds of the Same Feather Tweet Together: Bayesian Ideal Point Estimation Using Twitter Data*, dans *Political Analysis*; Chetty et collègues (2022), *Social capital I: measurement and associations with economic mobility* dans *Nature*; Guinaudeau, Munger et Votta (2022), *Fifteen seconds of fame: TikTok and the supply side of social video*, dans *Computational Communication Research*; Nyhan et collègues (2023), *Like-minded sources on Facebook are prevalent but not polarizing* dans *Nature*.
+
+\newpage
+
+## Cours 7 (20 février 2024) : Analyses de réseaux sociaux.
+
+-   Description: Analyses possibles, enjeux et futur pour ces types de données en sciences sociales.
+
+-   Invitée: Anne Imouza, doctorante au département de science politique de l'Université McGill et qui a utilisé des données de `Twitter` maintenant `X` pour son mémoire de maîtrise.
+
+## Cours 8 (27 février 2024) : Atelier pour travailler sur le projet de mi-session.
+
+## (5 mars 2024): Semaine de lectures**
+
+-   Lecture pour le prochain cours: Lire le chapitre [7](https://tellingstorieswithdata.com/07-gather.html). Lire également l'article de Luscombe, Dick and Walby (2020), *Algorithmic thinking in the public interest: navigating technical, legal, and ethical hurdles to web scraping in the social sciences*, dans *Quality & Quantity*.
+
+## Cours 9 (12 mars 2024) : Scraping de données.
+
+-   Description: Webscraping (données tirées du web), API.
+
+-   Invité: [Benjamin Guinaudeau](https://benguinaudeau.com/), chercheur postdoctoral au [New York University Center of Social Media and Politics](https://csmapnyu.org/).
+
+-   Lectures pour le prochain cours: Consulter le [vidéo](https://www.youtube.com/watch?v=1gBViHUDYD0&t=1355s&ab_channel=TalksatGoogle) de l'économiste Seth Stephens-Davidowitz de `Google` sur des données tirées du site du même nom.
+
+-   Bonus: **Vous pouvez lire si intéressé(e)** Girbau, Kobayashi, Renoust, Matsui, and Satoh (2023), *Face Detection, Tracking, and Classification from Large-Scale News Archives for Analysis of Key Political Figures* dans *Political Analysis*; Messing, Jabon et Plaut (2016), *Bias in the Flesh: Skin Complexion and Stereotype Consistency in Political Campaigns*, dans *Public Opinion Quarterly*; Tarr, Hwang, and Imai (2023), *Automated Coding of Political Campaign Advertisement Videos: An Empirical Validation Study* dans *Political Analysis*.
+
+## Cours 10 (19 mars 2024) : Autres types de données
+
+-   Description: Données historiques, données de vidéos, données d'images, etc.
+
+-   Invité: Professeur Jean-François Godbout du département de science politique de l'Université de Montréal.
+
+-   Lectures pour le prochain cours: Consulter le [vidéo](https://ici.radio-canada.ca/nouvelle/1090159/facebook-cambridge-analytica-donnees-personnelles-election-politique-campagne-marketing-politique) suivant sur le scandale de Cambridge Analytica. Voir le [vidéo](https://www.youtube.com/watch?v=mA4gypAiRYU&ab_channel=YimmyTalks) sur l'éthique en sciences des données. Voir également le [vidéo](https://www.youtube.com/watch?v=d2Tm3Yx4HWI&t=2s&ab_channel=PeteJudo) sur l'histoire de Francesca Gino, une Professeure en économie de Harvard accusée d'avoir fraudé ses données.
+
+## Cours 11 (26 mars 2024) : Éthique en science des données
+
+-   Description: Questionnement sur le droit de collecte, d'utilisation et analyse des données, fabrication de données, problèmes pour la recherche.
+
+-   Invité(e): À confirmer.
+
+## Cours 12 (2 avril) : Atelier pour travailler sur vos présentations et vos travaux de session.
+
+## Cours 13 (9 avril 2024) : Présentation des projets de recherche partie 1.
+
+## Cours 14 (16 avril 2024) : Présentation des projets de recherche partie 2.
+
+# Remises
+
+| Évaluations                               | Dates limites                |
+|-------------------------------------------|------------------------------|
+| **Introduction à `GitHub`** **(TP)**      | 22 janvier 2024 avant minuit |
+| **Combiner des données de sondages (TP)** | 5 février 2024 avant minuit  |
+| **Analyse de données textuelles (TP)**    | 19 février 2024 avant minuit |
+| **Travail de mi-session**                 | 11 mars 2024 avant minuit    |
+| **Webscraping (TP)**                      | 18 mars 2024 avant minuit    |
+| **Travail de session**                    | 19 avril 2024 avant minuit   |
+
+# Rappel de règlements pédagogiques
+
+Veuillez prendre note que le trimestre commence le 8 janvier et se termine le 30 avril 2024 (incluant la période des examens) et que la présence physique est attendue à tous les cours. 
+Aucune demande d'examen différé ne sera acceptée sans motif valable. 
+Nous entendons par motif valable, un motif indépendant de votre volonté, tel que la force majeure, le cas fortuit ou une maladie attestée par un certificat de médecin.
+
+
+# Absence à un examen
+
+Il est de votre responsabilité de motiver, en remplissant le formulaire disponible dans le [Centre étudiant](https://academique-dmz.synchro.umontreal.ca/psc/acprpr9/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL&cmd=login&languageCd=CFR&userid=CAS&pwd=z?PortalActualURL=https%3a%2f%2facademique-dmz.synchro.umontreal.ca%2fpsc%2facprpr9%2fEMPLOYEE%2fSA%2fc%2fNUI_FRAMEWORK.PT_LANDINGPAGE.GBL%26cmd%3dlogin%26languageCd%3dCFR%26userid%3dCAS%26pwd%3dz&PortalRegistryName=EMPLOYEE&PortalServletURI=https%3a%2f%2facademique-dmz.synchro.umontreal.ca%2fpsp%2facprpr9%2f&PortalURI=https%3a%2f%2facademique-dmz.synchro.umontreal.ca%2fpsc%2facprpr9%2f&PortalHostNode=SA&NoCrumbs=yes&PortalKeyStruct=yes), toute absence à une évaluation ou à un cours faisant l'objet d'une évaluation continue dès que vous serez en mesure de constater que vous ne pourrez pas vous présenter à une évaluation. 
+Vous devez obligatoirement fournir les pièces justificatives dans les sept jours suivant l'absence.
+
+# Délais pour la remise d'un travail
+
+Vous devez motiver, en remplissant le formulaire disponible dans le [Centre étudiant](https://academique-dmz.synchro.umontreal.ca/psc/acprpr9/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL&cmd=login&languageCd=CFR&userid=CAS&pwd=z?PortalActualURL=https%3a%2f%2facademique-dmz.synchro.umontreal.ca%2fpsc%2facprpr9%2fEMPLOYEE%2fSA%2fc%2fNUI_FRAMEWORK.PT_LANDINGPAGE.GBL%26cmd%3dlogin%26languageCd%3dCFR%26userid%3dCAS%26pwd%3dz&PortalRegistryName=EMPLOYEE&PortalServletURI=https%3a%2f%2facademique-dmz.synchro.umontreal.ca%2fpsp%2facprpr9%2f&PortalURI=https%3a%2f%2facademique-dmz.synchro.umontreal.ca%2fpsc%2facprpr9%2f&PortalHostNode=SA&NoCrumbs=yes&PortalKeyStruct=yes), toute demande de délai pour la remise d'un travail et fournir les pièces justificatives dès que vous êtes en mesure de constater que vous ne pourrez pas remettre à temps le travail.
+
+La pénalité imposée pour les retards dans la remise des travaux est de 10 points de pourcentage par jour. 
+Cette pénalité est calculée en déduisant 10 points de pourcentage à la note obtenue pour le travail en question. 
+Il s'agit de la politique « par défaut » du Département; le corps enseignant est libre d'imposer une pénalité plus élevée s'il le désire. 
+La personne étudiante qui remet son travail après 23h59 sur Studium le jour de la remise est réputé les avoir remis le matin du jour ouvrable qui suit et les jours non ouvrables sont comptés comme des jours de retard.
+
+# Prévention du plagiat
+
+Le Département porte une attention toute particulière à la lutte contre le plagiat, le copiage ou la fraude lors des examens. 
+Le plagiat consiste à utiliser de façon totale ou partielle, littérale ou déguisée le texte d'autrui en le faisant passer pour sien ou sans indication de référence à l'occasion d'un travail, d'un examen ou d'une activité faisant l'objet d'une évaluation. 
+Cette fraude est lourdement sanctionnée.
+
+Toutes les personnes étudiantes sont invitées à consulter le site web <http://www.integrite.umontreal.ca/> et à prendre connaissance du Règlement disciplinaire sur le plagiat ou la fraude concernant les étudiants. 
+Plagier peut entrainer un échec, la suspension ou le renvoi de l'Université.
+
+# Bibliothécaire et règles bibliographiques
+
+Il est obligatoire de respecter les règles de présentation et de citations/références (modèle de Chicago pour les travaux et examens-maison du Département de science politique. 
+Deux guides à cet effet sont disponibles sur le site du département aux adresses suivantes: Pour la présentation des travaux:
+
+<https://bib.umontreal.ca/economie-politique-relations-industrielles/science-politique>
+
+Pour les citations et références:
+
+<https://bib.umontreal.ca/citer/styles-bibliographiques/chicago>
+
+N'hésitez pas à profiter des services de la bibliothécaire spécialisée en science politique [Julia Généreux Randall](mailto:julia.genereux.randall@umontreal.ca). Vous pouvez la rejoindre à son bureau (local 3017 de la Bibliothèque des lettres et sciences humaines, Pavillon Samuel-Bronfman) ou lui envoyer un courriel. La BLSH met aussi à disposition un [Guide internet](https://bib.umontreal.ca/economie-politique-relations-industrielles/science-politique), point de départ idéal pour toute recherche documentaire en science politique.
+
+# Le harcèlement, y compris à caractère sexuel
+
+Il incombe à chaque membre de la communauté universitaire de se conduire avec respect en tout temps envers tout le monde. 
+En particulier, le Département de science politique s'engage à créer un milieu accueillant et sécuritaire pour toutes et tous, quelle que soit leur identité.
+
+
+Les documents suivants ont des démarches pratiques à suivre : Si vous pensez que vous vivez du harcèlement : <https://respect.umontreal.ca/obtenir-de-laide/vous-vivez-une-situation-difficile/>. 
+Si on s'est confié à vous ou si vous êtes témoin de harcèlement : <https://respect.umontreal.ca/obtenir-de-laide/vous-avez-ete-temoin-dune-situation/>. 
+Pour toute autre question : <https://respect.umontreal.ca/accueil/>
+
+# Besoin d'écoute? Situation de détresse?
+
+Vous pouvez faire appel à plusieurs **lignes d'écoute** ou d'urgence. 
+Vous avez accès à un [service 24 heures/7 jours](https://www.aseq.ca/rte/fr/FA%C3%89CUM_Programmedaide_Programmedaide) offert par l'Alliance pour la santé étudiante au Québec. 
+Le numéro est le suivant : 1-833-851-1363. 
+Vous retrouverez les services d'aide disponibles du le site du Service à la vie étudiante : <https://toutlemondeadesbas.ca/>
+
+Vous pouvez aussi faire appel à une **sentinelle**. 
+La sentinelle est employée par l'UdeM, formée et disponible pour vous accueillir, vous écouter et vous orienter vers les bonnes ressources. 
+Son accueil est spontané, respectueux et strictement confidentiel. 
+Le service est offert en plusieurs langues. 
+Bottin des sentinelles : <http://cscp.umontreal.ca/activiteprevention/sentinelle.htm>
+
+Si vous souhaitez discuter avec des pairs du stress que peut occasionner la vie étudiante, le local du **PASPOUM** au C-3144 est ouvert (3e étage, Pavillon Lionel-Groulx). 
+Une personne étudiante formée à l'écoute active pourra vous orienter vers des ressources appropriées. 
+Le local du PASPOUM est aussi un espace où vous pouvez déconnecter pendant quelques instants. 
+Consultez les heures d'ouverture et les activités du PASPOUM sur la page Facebook. 
+Vous pouvez vous abonner au compte Instagram du même nom pour suivre les actualités.
+
