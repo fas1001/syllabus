@@ -16,6 +16,8 @@ header-includes:
 
 **Disponibilité:** Sur rendez-vous
 
+**Nom du chargé de cours:** Laurence-Olivier M. Foisy
+
 **Courriel:** [lomf0\@ulaval.ca](mailto:lomf0@ulaval.ca)
 
 \rule{\textwidth}{2pt}
@@ -28,7 +30,8 @@ header-includes:
 
 Ce cours ne demande aucun prérequis en statistiques avancées ou en programmation, mais avoir des connaissances au préalable demeure un atout. 
 Il est fortement conseillé de suivre en parallèle le cours [FAS 1003](https://admission.umontreal.ca/cours-et-horaires/cours/fas-1003) - *Visualisation des données*, car la visualisation graphique demeurera un élément important dans la présentation de vos travaux. 
-Ce cours priorise un enseignement avec des ateliers afin de permettre aux étudiant-es de se pratiquer à la programmation, de poser des questions au chargé de cours et d'effectuer leur travail de mi-session et de fin de session.
+Ce cours comportera une section magistrale ainsi que des ateliers pratiques en classe si le temps le permet.
+Les élèves sont encouragés à poser des questions et à participer activement aux discussions.
 
 # Description du cours et objectifs
 
@@ -58,163 +61,260 @@ Les étudiant-es devront, si ce n'est pas déjà fait, créer un compte [`GitHub
 `GitHub` est un service web d'hébergement et de gestion de développement de logiciels qui est largement utilisé en industrie pour le partage de codes. 
 Cela permettra de socialiser les étudiant-es à son utilisation.
 
-- Le bon déroulement de ce cours nécessite que vous ayez un ordinateur, notamment pour les nombreux ateliers pratiques lors des classes. Si vous n'avez pas d'ordinateur, une solution sera trouvée, afin que vous puissiez participer aux activités en classe.
+Le bon déroulement de ce cours nécessite que vous ayez un ordinateur, notamment pour les nombreux ateliers pratiques lors des classes. Si vous n'avez pas d'ordinateur, une solution sera trouvée, afin que vous puissiez participer aux activités en classe.
 
-- Généralement, le cours comporte une heure et demie d'enseignement magistral, une pause de 15 minutes et une heure d'atelier en classe. Le cours magistral abordera les lectures et autres ressources obligatoires à consulter avant le cours ainsi que le contenu du jour. Il est attendu une présence des étudiant-es aux cours, car nos ateliers en classe seront importants pour comprendre la matière puis pour avancer dans ses travaux de session.
+Les élèves doivent télécharger `Slack` [ici](https://slack.com/intl/fr-ca/downloads/windows) pour communiquer avec le chargé de cours et les autres étudiant-es. `Slack` est une plateforme de communication collaborative qui permet de partager des fichiers, de poser des questions et de discuter en temps réel. Ce canal de communication sera privilégié aux courriels pour les questions en dehors des heures de cours.
 
-- Il y aura également la présence de plusieurs personnes invitées ayant des expériences concrètes de recherche avec des mégadonnées à l'intérieur et à l'extérieur du milieu académique. Les présentations seront discutées au début du cours en plus des lectures/vidéos et autres sources que vous devez consulter avant chacun d'entre eux. Lorsqu'un-e invité-e sera présent-e, la partie magistrale du cours sera légèrement moins longue. Les présentations des invité-es dureront environ 30 minutes avec une période de questions de 15 minutes.
+# Site du cours
+
+Le site web du cours est disponible au [https://fas1001.com](https://fas1001.com).
+Tous les informations concernant le cours y seront publiés. Les diapositives, les travaux pratiques, le plan de cours et les dates importantes.
 
 # Évaluations
 
 Sur un total de 100 points:
 
-## Participation en classe (15/100)
+## Travaux pratiques (60/100)
 
-**15% des points** seront alloués à **la participation en classe**. L'entraide entre les étudiant-es est encouragée (évaluation et correction de code sur `GitHub` ou lors des ateliers).
+Les travaux pratiques devront être mis sur votre compte `GitHub` **une journée avant le cours suivant, soit mercredi avant minuit**. 
 
-## Travaux pratiques (30/100)
+- Introduction à git, GitHub et Quarto : 22 janvier 2025
+- Travail de mi-session : 12 mars 2025
+- Travail de session : 30 avril 2025
 
-**20% des points** seront alloués **aux travaux pratiques**. 
-Les étudiant-es devront remettre 4 travaux pratiques qui permettront d'évaluer leur évolution à différentes étapes de la session. 
-Les travaux pratiques devront être mis sur votre compte `GitHub` **une journée avant le cours suivant, soit lundi 23h59**. 
-Vous pouvez commencer ou même terminer vos travaux pratiques lors des ateliers qui sont également des périodes pour avancer vos travaux de session. 
-Les jours de remise seront dans le calendrier du cours.
+### TP1 : Introduction à `git`, `GitHub`, et `Quarto` (10/100)
 
-- Introduction à `GitHub` (**10 points**)
+**10% des points** seront alloués au premier TP **Introduction à `git`, `GitHub`, et `Quarto`**.
 
-- Combiner des données de sondages (**10 points**)
+### TP2 : Travail de mi-session (20/100)
 
-- Analyse de données textuelles (**10 points**)
-
-- Webscraping (**5 points**)
-
-## Travaux de session (55/100)
-
-### Travail de mi-session (20/100)
-
-**15% des points** seront alloués à la remise d'un **plan de recherche de votre travail de session de 5 pages**. 
+**20% des points** seront alloués à la remise d'un **plan de recherche de votre travail de session de 2-4 pages**. 
 Le plan de recherche permettra d'avoir un regard du chargé de cours sur l'évolution du travail de session et de corriger la trajectoire de ce dernier si nécessaire. 
 Le plan de recherche consistera principalement en la présentation de votre question de recherche, les raisons motivant votre recherche, les données que vous comptez utiliser et la ou les méthode-s mobilisée-s. 
-Ce travail peut également être la base de votre travail de session final.
+Ce travail sera la base de votre travail de session final.
 
-### Travail de session (35/100)
+### TP3 : Travail de session (35/100)
 
-**35% des points** seront alloués à **votre travail de session individuel pouvant aller de 10 à 15 pages**. 
+**30% des points** seront alloués à **votre travail de session individuel pouvant aller de 8 à 10 pages**. 
 Ce dernier consistera en une recherche complète avec présentation de la question de recherche, les raisons motivant cette dernière, la présentation des données utilisées, la ou les méthode-s mobilisée-s, l'analyse des données et de la présentation des conclusions de l'étude. 
 La ou les méthode-s utilisée-s pour analyser les données n'ont pas besoin d'être poussée-s, une plus grande attention sera portée sur les données collectées, la transformation effectuée sur ces dernières et leur présentation.
 
+## Quiz (30/100)
+
+**30% des points** seront alloués aux **Quiz en classe**. 
+Les étudiant-es devront compléter deux Quiz de 1h00 sur leurs ordinateurs qui permettront d'évaluer leurs connaissances à propos de la matière apprise en classe. 
+- Quiz 1 (Données structurés) : 13 février 2025
+- Quiz 2 : 10 avril 2025
+
+## Participation en classe (10/100)
+
+**10% des points** seront alloués à **la participation en classe**. L'entraide entre les étudiant-es est encouragée (évaluation et correction de code sur `GitHub` et entraide sur `Slack`.
+
 ## Résumé des évaluations
 
-- Participation en classe: **15 points**
-
-- Travaux pratiques: **30 points**
-
-- Travail de mi-session: **20 points**
-
-- Travail de session: **35 points**
+| Évaluations                     |Points   | Dates                        |
+|---------------------------------|---------|------------------------------|
+| Introduction à `GitHub`         | 10%     | 22 janvier 2025 avant minuit |
+| Quiz 1 - En classe              | 15%     | 13 février 2025              |
+| Travail de mi-session           | 20%     | 12 mars 2024 avant minuit    |
+| Quiz 2 - En classe              | 15%     | 10 avril 2025                |
+| Travail de session              | 30%     | 30 avril 2024 avant minuit   |
+| Participation en classe         | 10%     | 9 janvier au 30 avril        |
+| Total                           | 100%    | 9 janvier au 30 avril        |
 
 # Lectures
 
-Le livre de référence du cours sera celui du Professeur Rohan Alexander de l'Université de Toronto [*Telling Stories with Data*](https://tellingstorieswithdata.com/) et disponible gratuitement sur son site web.
+Les lectures pour ce cours, bien que fortement recommandées, ne sont pas obligatoires.
 
-Pour un livre ressource en méthodes quantitatives, il est conseillé de consulter le livre du Professeur Vincent Arel Bundock [*Analyse causale et méthodes quantitatives*](https://pum.umontreal.ca/catalogue/analyse_causale_et_methodes_quantitatives) disponible gratuitement sur le site des Presses de l'Université de Montréal.
+Le livre servant d'inspiration au cours est celui du Professeur Rohan Alexander de l'Université de Toronto [*Telling Stories with Data*](https://tellingstorieswithdata.com/). Disponible gratuitement sur son site web.
+
+Pour un livre ressource en méthodes quantitatives, il est conseillé de consulter le livre du Professeur Vincent Arel Bundock [*Analyse causale et méthodes quantitatives*](https://pum.umontreal.ca/catalogue/analyse_causale_et_methodes_quantitatives). Disponible gratuitement sur le site des Presses de l'Université de Montréal.
 
 # Calendrier
 
-## Cours 1 (9 janvier 2024) : Introduction et présentation du plan de cours.
+## Cours 1 (9 janvier) : Introduction
 
--   Lectures pour le prochain cours: Lire les chapitres [3](https://tellingstorieswithdata.com/03-workflow.html) et [4](https://tellingstorieswithdata.com/04-writing_research.html).
+### Objectifs principaux
+- Présenter la structure du cours, les ressources et le système d'évaluation
+- Introduire Slack, le site web du cours, le github du cours.
+- Télécharger R et RStudio, s'inscrire sur GitHub
 
--   Bonus: **Vous pouvez lire si intéressé(e)** les chapitres [1](https://tellingstorieswithdata.com/01-introduction.html) et [2](https://tellingstorieswithdata.com/02-drinking_from_a_fire_hose.html).
+### Contenu
+- Revue du syllabus : objectifs, notation, dates limites importantes, vue d'ensemble du parcours des données
+- Pourquoi les big data (et les données en général) sont importantes en sciences sociales
 
-## Cours 2 (16 janvier 2024) : Outils de communication et de collaboration en recherche.
+### Lectures suggérées
 
--   Description: Introduction à `GitHub` et `Quarto`.
+Lazer, D., Hargittai, E., Freelon, D., Gonzalez-Bailon, S., Munger, K., Ognyanova, K., & Radford, J. (2021). Meaningful measures of human society in the twenty-first century. Nature, 595(7866), 189‑196. https://doi.org/10.1038/s41586-021-03660-7
 
--   Lectures pour le prochain cours: Lire la section 8.3 du chapitre [8](https://tellingstorieswithdata.com/08-hunt.html). Lire également Breton, Cutler, Lachance et Mierke-Zatwarnicki (2017), *Telephone versus online survey modes for election studies: Comparing Canadian public opinion and vote choice in the 2015 federal election*, dans la *Revue Canadienne de Science Politique*. Visionner ce [vidéo](https://www.youtube.com/watch?app=desktop&v=5SybR3KiBMw&ab_channel=TLDRBusiness) qui montre un exemple cocasse d'une recherche avec sondage qui souligne les forces et les limites de ce type de données.
+## Cours 2 (16 janvier) : Git, GitHub, Quarto, terminal et bonnes pratiques
 
--   Bonus: **Vous pouvez lire si intéressé(e)** Zaller et Feldman (1992), *A Simple Theory of the Survey Response: Answering Questions versus Revealing Preferences*, dans *l'American Journal of Political Science* sur les réponses données lors des sondages. Vous pouvez également lire Ansolabehere, Rodden et Snyder (2008), *The Strength of Issues: Using Multiple Measures to Gauge Preference Stability, Ideological Constraint, and Issue Voting*, sur les échelles de mesure pour réduire les erreurs en analyse de sondages. Ces lectures seront utiles pour comprendre la matière du prochain cours.
+### Objectifs principaux
+- S'assurer que les étudiants maîtrisent les bases du contrôle de version
+- Leur montrer comment créer des documents reproductibles (Quarto)
+- Établir une "hygiène numérique" pour l'organisation des fichiers, les conventions de nommage, les sauvegardes
 
-## Cours 3 (23 janvier 2024) : Données de sondages.
+### Contenu
+- Fondamentaux de Git : git add/commit/push/pull, branches, résolution de conflits mineurs
+- GitHub : stockage des dépôts, fork, pull requests (collaboration)
+- Bases de Quarto : création de documents, rendu du code R dans les fichiers .qmd
+- Commandes Terminal : navigation (ls, cd, mkdir, rm), édition de texte
+- Intégration de RStudio avec Git/GitHub
 
--   Description: Utilisation, avantages et inconvénients, structuration de bases de données, transformation de variables, variables latentes, expériences par sondage et quasi-expériences.
+### Lectures suggérées
 
--   Lecture pour le prochain cours: Lire Grimmer, Roberts, et Stewart (2021). *Machine Learning for Social Science: An Agnostic Approach.*, dans *Annual Review of Political Science*.
+The tidyverse team. (2024). Tidyverse style guide. https://style.tidyverse.org/
 
-## Cours 4 (30 janvier 2024) : Machine Learning.
+:::{.callout-important}
+Remise du TP1 le 22 janvier 2025 avant minuit
+:::
 
--   Description: Entraînement de modèles, algorithmes et place de l'IA en sciences sociales.
+## Semaine 3 (23 janvier) : Révision R (Chargement de données, dplyr, Fusionner des BD, etc.) et introduction aux données structurées.
 
--   Invitée: Professeure [Catherine Ouellet](https://www.catherineouellet.com/) du département de science politique de l'Université de Montréal et co-créatrice de l'application Datagotchi.
+### Objectifs principaux
+- Donner un aperçu ou une révision sur la manipulation des données R (dplyr)
+- S'assurer que tout le monde peut gérer CSV/rds/sav, faire des fusions/jointures, des résumés basiques
 
--   Lectures pour le prochain cours: Lire le texte de Grimmer, et Stewart (2013) *Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts* dans *Political Analysis*. Lire également le chapitre [17](https://tellingstorieswithdata.com/16-text.html).
+### Contenu
+- Importation de données
+- Verbes dplyr : select, filter, mutate, summarize, group_by
+- Pivotement/manipulation de base avec tidyr
+- Les types de données (caractère vs. facteur, numérique, date)
 
-## Cours 5 (6 février 2024) : Analyses textuelles automatisées partie 1.
+## Semaine 4 (30 janvier) : Données de sondages, nettoyage, mesure d'un concept latent et éthique des données
 
--   Description: Données tirées de texte, analyses du dictionnaires, analyses supervisées.
+### Objectifs principaux
+- Introduire les données structurées typiques en sciences sociales
+- Explorer comment mesurer les variables latentes avec l'analyse factorielle, l'alpha de Cronbach, etc.
+- Introduire l'éthique des données
 
-## Cours 6 (13 février 2024) : Analyses textuelles automatisées partie 2.
+### Contenu
+- Conception de sondages, types de questions (Likert, échelle, etc.)
+- Spécificités du nettoyage des données
+- Analyse factorielle simple ou vérifications de fiabilité pour mesurer une variable latente
+- Éthique de base des données
 
--   Description: Analyses non-supervisées, word embedding, machine learning et autres.
+## Semaine 5 (6 février) : Données de sondages, PCA et clustering
 
--   Lectures pour le prochain cours: Lire le texte de Chetty et collègues (2022), *Social capital II: determinants of economic connectedness* dans *Nature*. Bien important de lire ***Social capital II*** et non I.
+### Objectifs principaux
+- Approfondir l'apprentissage non supervisé (clustering) dans le contexte des données de sondage
+- Montrer comment interpréter les clusters (segments de groupe, par ex., typologie politique)
 
--   Bonus: **Vous pouvez lire si intéressé(e)** Barbera (2015), *Birds of the Same Feather Tweet Together: Bayesian Ideal Point Estimation Using Twitter Data*, dans *Political Analysis*; Chetty et collègues (2022), *Social capital I: measurement and associations with economic mobility* dans *Nature*; Guinaudeau, Munger et Votta (2022), *Fifteen seconds of fame: TikTok and the supply side of social video*, dans *Computational Communication Research*; Nyhan et collègues (2023), *Like-minded sources on Facebook are prevalent but not polarizing* dans *Nature*.
+### Contenu
+- Révision des statistiques descriptives pour les données multi-variables
+- K-means ou clustering hiérarchique sur données d'enquête (par ex., attitudes des répondants)
+- Interprétation des centres de clusters, scores silhouette, ou diagnostics de base des clusters
 
-\newpage
+## Semaine 6 (13 février) : Données de sondages, apprentissage machine et Quiz 1
 
-## Cours 7 (20 février 2024) : Analyses de réseaux sociaux.
+:::{.callout-important}
+Quiz 1 en classe. Vous aurez 1 heure pour le compléter.
+:::
 
--   Description: Analyses possibles, enjeux et futur pour ces types de données en sciences sociales.
+### Objectifs principaux
+- Montrer comment l'apprentissage automatique supervisé peut être utilisé pour prédire un résultat à partir de variables d'enquête
+- Garder un niveau élevé : comment faire les divisions train/test, mesurer la précision, interpréter les résultats
 
--   Invitée: Anne Imouza, doctorante au département de science politique de l'Université McGill et qui a utilisé des données de `Twitter` maintenant `X` pour son mémoire de maîtrise.
+### Contenu
+- Révision rapide de la régression linéaire vs. logistique en R
+- Introduction aux arbres de décision ou random forest pour la classification
+- Surapprentissage, validation croisée, métriques de performance de base
 
-## Cours 8 (27 février 2024) : Atelier pour travailler sur le projet de mi-session.
+## Semaine 7 (20 février) : Rencontres individuelles
 
-## (5 mars 2024): Semaine de lectures**
+### Objectifs principaux
+- Fournir un retour personnalisé sur le TP 1 et le Quiz 1
+- Discuter des travaux de mi-session 
 
--   Lecture pour le prochain cours: Lire le chapitre [7](https://tellingstorieswithdata.com/07-gather.html). Lire également l'article de Luscombe, Dick and Walby (2020), *Algorithmic thinking in the public interest: navigating technical, legal, and ethical hurdles to web scraping in the social sciences*, dans *Quality & Quantity*.
+## Semaine 8 (27 février) : Introduction aux Données Textuelles + Infrastructures de Données
 
-## Cours 9 (12 mars 2024) : Scraping de données.
+### Objectifs principaux
+- Transition vers des données moins structurées (texte)
+- Donner un aperçu du stockage/infrastructure des données au niveau conceptuel : du CSV local aux bases de données relationnelles.
 
--   Description: Webscraping (données tirées du web), API.
+### Contenu
+- Pourquoi les données textuelles sont importantes en sciences sociales (tweets, actualités, transcriptions)
+- Idées de base des bases de données relationnelles vs. non-relationnelles
+- Considérer la taille des données : stockage local vs. cloud
 
--   Invité: [Benjamin Guinaudeau](https://benguinaudeau.com/), chercheur postdoctoral au [New York University Center of Social Media and Politics](https://csmapnyu.org/).
+## Semaine 9 (6 mars) : Semaine de Lecture
 
--   Lectures pour le prochain cours: Consulter le [vidéo](https://www.youtube.com/watch?v=1gBViHUDYD0&t=1355s&ab_channel=TalksatGoogle) de l'économiste Seth Stephens-Davidowitz de `Google` sur des données tirées du site du même nom.
+### Objectifs principaux
+- Compléter le travail de mi-session
 
--   Bonus: **Vous pouvez lire si intéressé(e)** Girbau, Kobayashi, Renoust, Matsui, and Satoh (2023), *Face Detection, Tracking, and Classification from Large-Scale News Archives for Analysis of Key Political Figures* dans *Political Analysis*; Messing, Jabon et Plaut (2016), *Bias in the Flesh: Skin Complexion and Stereotype Consistency in Political Campaigns*, dans *Public Opinion Quarterly*; Tarr, Hwang, and Imai (2023), *Automated Coding of Political Campaign Advertisement Videos: An Empirical Validation Study* dans *Political Analysis*.
+:::{.callout-important}
+Remise du TP2 le 12 mars 2025 avant minuit
+:::
 
-## Cours 10 (19 mars 2024) : Autres types de données
+## Semaine 10 (13 mars) : Données textuelles et méthodes d'analyse
 
--   Description: Données historiques, données de vidéos, données d'images, etc.
+### Objectifs principaux
+- Fournir plus de détails sur la manipulation de texte (tokenisation, mots vides)
+- Analyse de sentiment et modélisation de sujets
 
--   Invité: Professeur Jean-François Godbout du département de science politique de l'Université de Montréal.
+### Contenu
+- Approche tidytext en R (tokenisation, suppression des mots vides, etc.)
+- Analyse de sentiment de base
+- (Optionnel) Introduction à la modélisation de sujets (LDA) si le temps le permet
 
--   Lectures pour le prochain cours: Consulter le [vidéo](https://ici.radio-canada.ca/nouvelle/1090159/facebook-cambridge-analytica-donnees-personnelles-election-politique-campagne-marketing-politique) suivant sur le scandale de Cambridge Analytica. Voir le [vidéo](https://www.youtube.com/watch?v=mA4gypAiRYU&ab_channel=YimmyTalks) sur l'éthique en sciences des données. Voir également le [vidéo](https://www.youtube.com/watch?v=d2Tm3Yx4HWI&t=2s&ab_channel=PeteJudo) sur l'histoire de Francesca Gino, une Professeure en économie de Harvard accusée d'avoir fraudé ses données.
+## Semaine 11 (20 mars) : Web Scraping, Introduction à HTML, API
 
-## Cours 11 (26 mars 2024) : Éthique en science des données
+### Objectifs principaux
+- Enseigner le scraping de base (structure HTML, utilisation de rvest ou similaire en R)
+- Manipulation des données JSON d'une API
+- Limites de taux, directives éthiques de scraping, et CGU
 
--   Description: Questionnement sur le droit de collecte, d'utilisation et analyse des données, fabrication de données, problèmes pour la recherche.
+### Contenu
+- Utilisation du package rvest
+- Accéder aux API REST avec httr ou curl, analyse JSON avec jsonlite
+- Éthique & légalité du scraping (robots.txt, confidentialité, etc.)
 
--   Invité(e): À confirmer.
+## Semaine 12 (27 mars) : LLM via API
 
-## Cours 12 (2 avril) : Atelier pour travailler sur vos présentations et vos travaux de session.
+### Objectifs principaux
+- Montrer comment utiliser les grands modèles linguistiques avec R 
+- Discuter de l'ingénierie de prompt de base, interpréter les résultats
+- Aborder les biais potentiels
 
-## Cours 13 (9 avril 2024) : Présentation des projets de recherche partie 1.
+### Contenu
+- Création de prompts structurés pour la génération ou classification de texte
+- Prix et utilisation des tokens—contraintes du monde réel
 
-## Cours 14 (16 avril 2024) : Présentation des projets de recherche partie 2.
+## Semaine 13 (3 avril) : Rencontres individuelles
 
-# Remises
+### Objectifs principaux
+- Répondre aux questions ou blocages
 
-| Évaluations                               | Dates limites                |
-|-------------------------------------------|------------------------------|
-| **Introduction à `GitHub`** **(TP)**      | 22 janvier 2024 avant minuit |
-| **Combiner des données de sondages (TP)** | 5 février 2024 avant minuit  |
-| **Analyse de données textuelles (TP)**    | 19 février 2024 avant minuit |
-| **Travail de mi-session**                 | 11 mars 2024 avant minuit    |
-| **Webscraping (TP)**                      | 18 mars 2024 avant minuit    |
-| **Travail de session**                    | 19 avril 2024 avant minuit   |
+### Contenu
+- Pas de nouveau cours. Consultations à propos du travail final
+- Préparation pour le Quiz 2
+
+## Semaine 14 (10 avril) : Données non structurées (Images et audio) et Quiz 2
+
+:::{.callout-important}
+Quiz 2 en classe. Vous aurez 1 heure pour le compléter.
+:::
+
+### Objectifs principaux
+- Introduction à l'analyse d'images (détection d'objets, classification) et audio (parole-en-texte, traitement du signal de base)
+
+### Contenu
+- Démonstration rapide : lecture d'images en R (package magick ou imager)
+- Pipeline conceptuel de base pour la classification d'images 
+
+## Semaine 15 (17 avril) : Introduction à R Shiny
+
+### Objectifs principaux
+- Enseigner comment faire une application web interactive ou tableau de bord en R pour présenter des analyses
+- Résumer l'ensemble du cours en se concentrant sur la communication des résultats
+
+### Contenu
+- Bases de Shiny : UI + serveur, expressions réactives et graphiques
+- Déploiement sur shinyapps.io ou autres solutions d'hébergement
+
+:::{.callout-important}
+Remise du TP Final le 30 avril 2025 avant minuit
+:::
 
 # Rappel de règlements pédagogiques
 
@@ -287,4 +387,3 @@ Une personne étudiante formée à l'écoute active pourra vous orienter vers de
 Le local du PASPOUM est aussi un espace où vous pouvez déconnecter pendant quelques instants. 
 Consultez les heures d'ouverture et les activités du PASPOUM sur la page Facebook. 
 Vous pouvez vous abonner au compte Instagram du même nom pour suivre les actualités.
-
