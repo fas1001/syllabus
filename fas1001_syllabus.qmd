@@ -29,46 +29,46 @@ header-includes:
 <!--\pagestyle{empty} --->
 
 Ce cours ne demande aucun prérequis en statistiques avancées ou en programmation, mais avoir des connaissances au préalable demeure un atout. 
-Il est fortement conseillé de suivre en parallèle le cours [FAS 1003](https://admission.umontreal.ca/cours-et-horaires/cours/fas-1003) - *Visualisation des données*, car la visualisation graphique demeurera un élément important dans la présentation de vos travaux. 
+Il est conseillé de suivre en parallèle le cours [FAS 1003](https://admission.umontreal.ca/cours-et-horaires/cours/fas-1003) - *Visualisation des données*, car la visualisation graphique demeurera un élément important dans la présentation de vos travaux. 
 Ce cours comportera une section magistrale ainsi que des ateliers pratiques en classe si le temps le permet.
 Les élèves sont encouragés à poser des questions et à participer activement aux discussions.
 
 # Description du cours et objectifs
 
 Jamais autant de données n'ont été disponibles pour comprendre les comportements humains. 
-De nouveaux outils de recherche nous permettent désormais de quantifier des données difficilement analysables auparavant, tels que de larges corpus de textes, des images ou des audios en provenance de vidéos. 
-Néanmoins, comment collecter, traiter et analyser ces nouvelles données? 
-Comment combiner ces nouvelles données avec celles déjà largement utilisées en sciences sociales comme les sondages? 
-Quels sont les enjeux techniques et éthiques que soulèvent l'utilisation de ces données en recherche dans le contexte d'un développement important de l'intelligence artificielle et de l'application croissante de l'apprentissage par machines en sciences sociales? 
-Ce cours aborde ces nombreux enjeux avec une ***approche pratique*** à l'utilisation des mégadonnées en sciences sociales.
+De nouveaux outils de recherche nous permettent désormais de quantifier des données difficilement analysables auparavant, tels que de larges corpus de textes, des images ou des fichiers audio et vidéo. 
+Comment collecter, traiter et analyser ces nouvelles données? 
+Comment combiner ces nouvelles données avec celles déjà largement utilisées en sciences sociales comme les données de sondages? 
+Quels sont les enjeux techniques et éthiques que soulève l'utilisation de ces données en recherche dans le contexte d'un développement important de l'intelligence artificielle et de l'application croissante de l'apprentissage par machines en sciences sociales? 
+Ce cours aborde ces nombreux enjeux avec une ***approche pratique*** de l'utilisation des mégadonnées en sciences sociales.
 
-À la fin de ce cours, les objectifs suivants seront remplis:
+À la fin de ce cours, les objectifs suivants seront atteints:
 
 - Avoir une connaissance globale des différentes sources de données disponibles pour étudier les phénomènes sociaux.
 
-- Développer l'autonomie nécessaire pour collecter, gérer et analyser quantitativement des bases de données et les présenter avec un projet de recherche les mobilisant.
+- Développer l’autonomie nécessaire pour collecter, gérer et analyser quantitativement des bases de données, et les intégrer dans un projet de recherche.
 
-- Faire preuve d'une compréhension des enjeux entourant la mobilisation et l'utilisation de volumineuses bases de données en sciences sociales.
+- Démontrer une compréhension des enjeux liés à la mobilisation et à l’utilisation de grandes bases de données en sciences sociales.
 
 # Pédagogie
 
-Le langage de programmation utilisé pour ce cours est `R`. 
+Le langage de programmation utilisé pour ce cours est R. 
 Ce dernier est téléchargeable gratuitement [ici](https://cran.r-project.org/). 
-Bien que plusieurs options soient possibles, il vous est également demandé de télécharger `RStudio` [ici](https://posit.co/download/rstudio-desktop/). 
-RStudio est l'environnement de développement intégré de prédilection pour coder en `R`. 
-Il vous permettra d'éditer et de déboguer plus facilement votre code en plus de vous donner les outils nécessaires pour transformer, prévisualiser et analyser vos données efficacement. 
-Les étudiant-es devront, si ce n'est pas déjà fait, créer un compte [`GitHub`](https://github.com/) lors du premier cours, afin de remettre leurs codes de travaux pratiques et de travaux de session. 
-`GitHub` est un service web d'hébergement et de gestion de développement de logiciels qui est largement utilisé en industrie pour le partage de codes. 
-Cela permettra de socialiser les étudiant-es à son utilisation.
+Bien que plusieurs options soient possibles, vous devez également télécharger RStudio, disponible [ici](https://posit.co/download/rstudio-desktop/). 
+RStudio est l'environnement de développement intégré de prédilection pour coder en R. 
+Il facilite l’édition et le débogage de votre code. Il met également à votre disposition les outils nécessaires pour transformer, prévisualiser et analyser vos données de manière efficace. 
+Les étudiant-es devront, si ce n'est pas déjà fait, créer un compte [GitHub](https://github.com/) lors du premier cours, afin de remettre leurs codes de travaux pratiques et de travaux de session. 
+GitHub est un service web d’hébergement de code et de gestion de projets, largement utilisé en industrie pour le partage de scripts et de logiciels. 
+Cela permettra de familiariser les étudiant-es avec son utilisation.
 
 Le bon déroulement de ce cours nécessite que vous ayez un ordinateur, notamment pour les nombreux ateliers pratiques lors des classes. Si vous n'avez pas d'ordinateur, une solution sera trouvée, afin que vous puissiez participer aux activités en classe.
 
-Les élèves doivent télécharger `Slack` [ici](https://slack.com/intl/fr-ca/downloads/windows) pour communiquer avec le chargé de cours et les autres étudiant-es. `Slack` est une plateforme de communication collaborative qui permet de partager des fichiers, de poser des questions et de discuter en temps réel. Ce canal de communication sera privilégié aux courriels pour les questions en dehors des heures de cours.
+Les élèves doivent télécharger Slack [ici](https://slack.com/intl/fr-ca/downloads/windows) pour communiquer avec le chargé de cours et les autres étudiant-es. Slack est une plateforme de communication collaborative qui permet de partager des fichiers, de poser des questions et de discuter en temps réel. Ce canal de communication sera privilégié aux courriels pour les questions en dehors des heures de cours.
 
 # Site du cours
 
 Le site web du cours est disponible au [https://fas1001.com](https://fas1001.com).
-Tous les informations concernant le cours y seront publiés. Les diapositives, les travaux pratiques, le plan de cours et les dates importantes.
+Toutes les informations concernant le cours y seront publiées, y compris les diapositives, les travaux pratiques, le plan de cours et les dates importantes.
 
 # Évaluations
 
@@ -76,16 +76,18 @@ Sur un total de 100 points:
 
 ## Travaux pratiques (60/100)
 
-Les travaux pratiques devront être mis sur votre compte `GitHub` **une journée avant le cours suivant, soit mercredi avant minuit**. 
+Les travaux pratiques devront être mis sur votre compte GitHub **une journée avant le cours suivant, soit mercredi avant minuit**. 
+
+Voici les échéances des travaux pratiques à respecter :
 
 - Introduction à git, GitHub et Quarto : 22 janvier 2025
 - Travail de mi-session : 12 mars 2025
 - Travail de session : 30 avril 2025
 
-### TP1 : Introduction à `git`, `GitHub`, et `Quarto` (10/100)
+### TP1 : Introduction à git, GitHub, et Quarto (10/100)
 
-**10% des points** seront alloués au premier TP **Introduction à `git`, `GitHub`, et `Quarto`**.
-Il s'agit d'un court travail de 1-2 pages qui permettra de vous familiariser avec les outils de travail collaboratif utilisés dans le cours et de s'assurer que vous êtes prêt à commencer le cours.
+**10% des points** seront alloués au premier TP **Introduction à git, GitHub, et Quarto**.
+Ce travail permettra de vous familiariser avec les outils collaboratifs utilisés dans le cours et de vérifier que vous êtes prêt-es à les utiliser pleinement.
 
 ### TP2 : Travail de mi-session (20/100)
 
@@ -102,21 +104,21 @@ La ou les méthode-s utilisée-s pour analyser les données n'ont pas besoin d'�
 
 ## Quiz (30/100)
 
-**30% des points** seront alloués aux **Quiz en classe**. 
-Les étudiant-es devront compléter deux Quiz de 1h00 sur leurs ordinateurs qui permettront d'évaluer leurs connaissances à propos de la matière apprise en classe. 
+**30% des points** seront alloués aux **quizz en classe**. 
+Les étudiant-es devront compléter deux quizz de 1h00 sur leurs ordinateurs qui permettront d'évaluer leurs connaissances à propos de la matière apprise en classe. 
 
 - Quiz 1 : 13 février 2025
 - Quiz 2 : 10 avril 2025
 
 ## Participation en classe (10/100)
 
-**10% des points** seront alloués à **la participation en classe**. L'entraide entre les étudiant-es est encouragée (évaluation et correction de code sur `GitHub` et entraide sur `Slack`.
+**10% des points** seront alloués à **la participation en classe**. L'entraide entre les étudiant-es est encouragée (évaluation et correction de code sur GitHub et entraide sur Slack.
 
 ## Résumé des évaluations
 
 | Évaluations                     |Points   | Dates                        |
 |---------------------------------|---------|------------------------------|
-| Introduction à `GitHub`         | 10%     | 22 janvier 2025 avant minuit |
+| Introduction à GitHub           | 10%     | 22 janvier 2025 avant minuit |
 | Quiz 1                          | 15%     | 13 février 2025 en classe    |
 | Travail de mi-session           | 20%     | 12 mars 2024 avant minuit    |
 | Quiz 2                          | 15%     | 10 avril 2025 en classe      |
@@ -126,11 +128,11 @@ Les étudiant-es devront compléter deux Quiz de 1h00 sur leurs ordinateurs qui 
 
 # Lectures
 
-Les lectures pour ce cours, bien que fortement recommandées, ne sont pas obligatoires.
+Les lectures recommandées pour ce cours, bien que fortement conseillées, ne sont pas obligatoires.
 
 Le livre servant d'inspiration au cours est celui du Professeur Rohan Alexander de l'Université de Toronto [*Telling Stories with Data*](https://tellingstorieswithdata.com/). Disponible gratuitement sur son site web.
 
-Pour un livre ressource en méthodes quantitatives, il est conseillé de consulter le livre du Professeur Vincent Arel Bundock [*Analyse causale et méthodes quantitatives*](https://pum.umontreal.ca/catalogue/analyse_causale_et_methodes_quantitatives). Disponible gratuitement sur le site des Presses de l'Université de Montréal.
+Pour un ouvrage de référence en méthodes quantitatives, il est conseillé de consulter celui du Professeur Vincent Arel Bundock, intitulé [*Analyse causale et méthodes quantitatives*](https://pum.umontreal.ca/catalogue/analyse_causale_et_methodes_quantitatives), disponible gratuitement sur le site des Presses de l’Université de Montréal.
 
 # Calendrier
 
@@ -139,12 +141,12 @@ Pour un livre ressource en méthodes quantitatives, il est conseillé de consult
 ### Objectifs principaux
 
 - Présenter la structure du cours, les ressources et le système d'évaluation
-- Introduire Slack, le site web du cours, le github du cours.
+- Introduire Slack, le site web du cours, le GitHub du cours
 - Télécharger R et RStudio, s'inscrire sur GitHub
 
 ### Contenu
 
-- Revue du syllabus : objectifs, notation, dates limites importantes, vue d'ensemble du parcours des données
+- Revue du plan de cours : objectifs, notation, dates limites importantes, vue d'ensemble du parcours des données
 - Pourquoi les mégadonnées (et les données en général) sont importantes en sciences sociales
 
 ### Lectures suggérées
@@ -181,7 +183,7 @@ The tidyverse team. (2024). Tidyverse style guide. https://style.tidyverse.org/
 Remise du TP1 le 22 janvier 2025 avant minuit
 :::
 
-## Semaine 3 (23 janvier) : Révision R (Chargement de données, dplyr, Fusionner des BD, etc.) et introduction aux données structurées.
+## Semaine 3 (23 janvier) : Révision R (Chargement de données, dplyr, Fusion de bases de données, etc.) et introduction aux données structurées.
 
 ### Objectifs principaux
 
@@ -272,7 +274,7 @@ James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). An Introduction to S
 
 ### Objectifs principaux
 
-- Fournir un retour personnalisé sur le TP 1 et le Quiz 1
+- Fournir un retour personnalisé sur le TP 1 et le quizz 1
 - Discuter des travaux de mi-session 
 
 ## Semaine 8 (27 février) : Introduction aux Données Textuelles + Infrastructures de Données
@@ -332,7 +334,7 @@ Young, L., & Soroka, S. (2012). Affective News : The Automated Coding of Senti
 
 - Utilisation du package rvest
 - Accéder aux API REST avec httr ou curl, analyse JSON avec jsonlite
-- Éthique & légalité du scraping (robots.txt, confidentialité, etc.)
+- Éthique et légalité du scraping (robots.txt, confidentialité, etc.)
 
 ### Lectures suggérées
 
