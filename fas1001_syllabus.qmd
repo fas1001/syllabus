@@ -85,6 +85,7 @@ Les travaux pratiques devront être mis sur votre compte `GitHub` **une journée
 ### TP1 : Introduction à `git`, `GitHub`, et `Quarto` (10/100)
 
 **10% des points** seront alloués au premier TP **Introduction à `git`, `GitHub`, et `Quarto`**.
+Il s'agit d'un court travail de 1-2 pages qui permettra de vous familiariser avec les outils de travail collaboratif utilisés dans le cours et de s'assurer que vous êtes prêt à commencer le cours.
 
 ### TP2 : Travail de mi-session (20/100)
 
@@ -93,17 +94,18 @@ Le plan de recherche permettra d'avoir un regard du chargé de cours sur l'évol
 Le plan de recherche consistera principalement en la présentation de votre question de recherche, les raisons motivant votre recherche, les données que vous comptez utiliser et la ou les méthode-s mobilisée-s. 
 Ce travail sera la base de votre travail de session final.
 
-### TP3 : Travail de session (35/100)
+### TP3 : Travail de session (30/100)
 
 **30% des points** seront alloués à **votre travail de session individuel pouvant aller de 8 à 10 pages**. 
-Ce dernier consistera en une recherche complète avec présentation de la question de recherche, les raisons motivant cette dernière, la présentation des données utilisées, la ou les méthode-s mobilisée-s, l'analyse des données et de la présentation des conclusions de l'étude. 
+Ce dernier consistera en une recherche complète répondant à la question de recherche, les raisons motivant cette dernière, la présentation des données utilisées, la ou les méthode-s mobilisée-s, l'analyse des données et de la présentation des conclusions de l'étude. 
 La ou les méthode-s utilisée-s pour analyser les données n'ont pas besoin d'être poussée-s, une plus grande attention sera portée sur les données collectées, la transformation effectuée sur ces dernières et leur présentation.
 
 ## Quiz (30/100)
 
 **30% des points** seront alloués aux **Quiz en classe**. 
 Les étudiant-es devront compléter deux Quiz de 1h00 sur leurs ordinateurs qui permettront d'évaluer leurs connaissances à propos de la matière apprise en classe. 
-- Quiz 1 (Données structurés) : 13 février 2025
+
+- Quiz 1 : 13 février 2025
 - Quiz 2 : 10 avril 2025
 
 ## Participation en classe (10/100)
@@ -115,9 +117,9 @@ Les étudiant-es devront compléter deux Quiz de 1h00 sur leurs ordinateurs qui 
 | Évaluations                     |Points   | Dates                        |
 |---------------------------------|---------|------------------------------|
 | Introduction à `GitHub`         | 10%     | 22 janvier 2025 avant minuit |
-| Quiz 1 - En classe              | 15%     | 13 février 2025              |
+| Quiz 1                          | 15%     | 13 février 2025 en classe    |
 | Travail de mi-session           | 20%     | 12 mars 2024 avant minuit    |
-| Quiz 2 - En classe              | 15%     | 10 avril 2025                |
+| Quiz 2                          | 15%     | 10 avril 2025 en classe      |
 | Travail de session              | 30%     | 30 avril 2024 avant minuit   |
 | Participation en classe         | 10%     | 9 janvier au 30 avril        |
 | Total                           | 100%    | 9 janvier au 30 avril        |
@@ -135,27 +137,37 @@ Pour un livre ressource en méthodes quantitatives, il est conseillé de consult
 ## Cours 1 (9 janvier) : Introduction
 
 ### Objectifs principaux
+
 - Présenter la structure du cours, les ressources et le système d'évaluation
 - Introduire Slack, le site web du cours, le github du cours.
 - Télécharger R et RStudio, s'inscrire sur GitHub
 
 ### Contenu
+
 - Revue du syllabus : objectifs, notation, dates limites importantes, vue d'ensemble du parcours des données
-- Pourquoi les big data (et les données en général) sont importantes en sciences sociales
+- Pourquoi les mégadonnées (et les données en général) sont importantes en sciences sociales
 
 ### Lectures suggérées
 
-Lazer, D., Hargittai, E., Freelon, D., Gonzalez-Bailon, S., Munger, K., Ognyanova, K., & Radford, J. (2021). Meaningful measures of human society in the twenty-first century. Nature, 595(7866), 189‑196. https://doi.org/10.1038/s41586-021-03660-7
+King, G., Keohane, R. O., & Verba, S. (1994). Designing social inquiry : Scientific inference in qualitative research. Princeton University Press.
+
+- Lire le chapitre 1 : The Science in Social Science 
+
+Salganik, M. J. (2019). Bit by bit : Social research in the digital age (First paperback printing). Princeton University Press.
+
+- Lire le chapitre 2.2 : Big Data 
 
 ## Cours 2 (16 janvier) : Git, GitHub, Quarto, terminal et bonnes pratiques
 
 ### Objectifs principaux
+
 - S'assurer que les étudiants maîtrisent les bases du contrôle de version
 - Leur montrer comment créer des documents reproductibles (Quarto)
 - Établir une "hygiène numérique" pour l'organisation des fichiers, les conventions de nommage, les sauvegardes
 
 ### Contenu
-- Fondamentaux de Git : git add/commit/push/pull, branches, résolution de conflits mineurs
+
+- Principes fondamentaux de git : git add/commit/push/pull, branches, résolution de conflits mineurs
 - GitHub : stockage des dépôts, fork, pull requests (collaboration)
 - Bases de Quarto : création de documents, rendu du code R dans les fichiers .qmd
 - Commandes Terminal : navigation (ls, cd, mkdir, rm), édition de texte
@@ -172,38 +184,67 @@ Remise du TP1 le 22 janvier 2025 avant minuit
 ## Semaine 3 (23 janvier) : Révision R (Chargement de données, dplyr, Fusionner des BD, etc.) et introduction aux données structurées.
 
 ### Objectifs principaux
+
 - Donner un aperçu ou une révision sur la manipulation des données R (dplyr)
-- S'assurer que tout le monde peut gérer CSV/rds/sav, faire des fusions/jointures, des résumés basiques
+- S'assurer que tout le monde peut gérer csv/rds/sav, faire des fusions/jointures, des résumés basiques
 
 ### Contenu
+
 - Importation de données
 - Verbes dplyr : select, filter, mutate, summarize, group_by
 - Pivotement/manipulation de base avec tidyr
 - Les types de données (caractère vs. facteur, numérique, date)
 
+### Lectures suggérées
+
+Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). R for data science : Import, tidy, transform, visualize, and model data (2nd edition). O’Reilly. https://r4ds.hadley.nz/
+
+- Lire le chapitre 3 : Data transformation
+
 ## Semaine 4 (30 janvier) : Données de sondages, nettoyage, mesure d'un concept latent et éthique des données
 
 ### Objectifs principaux
+
 - Introduire les données structurées typiques en sciences sociales
 - Explorer comment mesurer les variables latentes avec l'analyse factorielle, l'alpha de Cronbach, etc.
 - Introduire l'éthique des données
 
 ### Contenu
+
 - Conception de sondages, types de questions (Likert, échelle, etc.)
 - Spécificités du nettoyage des données
 - Analyse factorielle simple ou vérifications de fiabilité pour mesurer une variable latente
 - Éthique de base des données
 
+### Lectures suggérées
+
+Wickham, H. (2014). Tidy Data. Journal of Statistical Software, 59(10). 
+
+Zook, M., Barocas, S., Boyd, D., Crawford, K., Keller, E., Gangadharan, S. P., Goodman, A., Hollander, R., Koenig, B. A., Metcalf, J., Narayanan, A., Nelson, A., & Pasquale, F. (2017). Ten simple rules for responsible big data research. PLOS Computational Biology, 13(3), e1005399. https://doi.org/10.1371/journal.pcbi.1005399
+
+DeVellis, R. F., & Thorpe, C. T. (2022). Scale development : Theory and applications (Fifth edition). SAGE Publications, Inc.
+
+- Lire le chapitre 2 : Understanding the Latent Variable
+
 ## Semaine 5 (6 février) : Données de sondages, PCA et clustering
 
 ### Objectifs principaux
+
 - Approfondir l'apprentissage non supervisé (clustering) dans le contexte des données de sondage
 - Montrer comment interpréter les clusters (segments de groupe, par ex., typologie politique)
 
 ### Contenu
+
 - Révision des statistiques descriptives pour les données multi-variables
 - K-means ou clustering hiérarchique sur données d'enquête (par ex., attitudes des répondants)
 - Interprétation des centres de clusters, scores silhouette, ou diagnostics de base des clusters
+
+### Lectures suggérées
+
+James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). An Introduction to Statistical Learning : With Applications in R. Springer US. https://doi.org/10.1007/978-1-0716-1418-1
+
+- Lire le chapitre 12.2 : Principal Component Analysis 
+- Lire le chapitre 12.4 : Clustering Methods
 
 ## Semaine 6 (13 février) : Données de sondages, apprentissage machine et Quiz 1
 
@@ -212,34 +253,50 @@ Quiz 1 en classe. Vous aurez 1 heure pour le compléter.
 :::
 
 ### Objectifs principaux
-- Montrer comment l'apprentissage automatique supervisé peut être utilisé pour prédire un résultat à partir de variables d'enquête
-- Garder un niveau élevé : comment faire les divisions train/test, mesurer la précision, interpréter les résultats
+
+- Montrer comment l'apprentissage automatique supervisé peut être utilisé pour prédire un résultat à partir de variables de sondage
 
 ### Contenu
+
 - Révision rapide de la régression linéaire vs. logistique en R
 - Introduction aux arbres de décision ou random forest pour la classification
 - Surapprentissage, validation croisée, métriques de performance de base
 
+### Lectures suggérées
+
+James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). An Introduction to Statistical Learning : With Applications in R. Springer US. https://doi.org/10.1007/978-1-0716-1418-1
+
+- Lire le chapitre 8.1 : The Basics of Decision Trees 
+
 ## Semaine 7 (20 février) : Rencontres individuelles
 
 ### Objectifs principaux
+
 - Fournir un retour personnalisé sur le TP 1 et le Quiz 1
 - Discuter des travaux de mi-session 
 
 ## Semaine 8 (27 février) : Introduction aux Données Textuelles + Infrastructures de Données
 
 ### Objectifs principaux
+
 - Transition vers des données moins structurées (texte)
 - Donner un aperçu du stockage/infrastructure des données au niveau conceptuel : du CSV local aux bases de données relationnelles.
 
 ### Contenu
+
 - Pourquoi les données textuelles sont importantes en sciences sociales (tweets, actualités, transcriptions)
-- Idées de base des bases de données relationnelles vs. non-relationnelles
 - Considérer la taille des données : stockage local vs. cloud
+
+### Lectures suggérées
+
+Grimmer, J., Roberts, M. E., & Stewart, B. M. (2022). Text as data : A new framework for machine learning and the social sciences. Princeton University Press.
+
+- Lire le chapitre 2 : Social Science Research and Text Analysis 
 
 ## Semaine 9 (6 mars) : Semaine de Lecture
 
 ### Objectifs principaux
+
 - Compléter le travail de mi-session
 
 :::{.callout-important}
@@ -249,44 +306,68 @@ Remise du TP2 le 12 mars 2025 avant minuit
 ## Semaine 10 (13 mars) : Données textuelles et méthodes d'analyse
 
 ### Objectifs principaux
+
 - Fournir plus de détails sur la manipulation de texte (tokenisation, mots vides)
 - Analyse de sentiment et modélisation de sujets
 
 ### Contenu
+
 - Approche tidytext en R (tokenisation, suppression des mots vides, etc.)
 - Analyse de sentiment de base
 - (Optionnel) Introduction à la modélisation de sujets (LDA) si le temps le permet
 
+### Lectures suggérées
+
+Young, L., & Soroka, S. (2012). Affective News : The Automated Coding of Sentiment in Political Texts. Political Communication, 29(2), 205‑231. https://doi.org/10.1080/10584609.2012.671234
+
 ## Semaine 11 (20 mars) : Web Scraping, Introduction à HTML, API
 
 ### Objectifs principaux
+
 - Enseigner le scraping de base (structure HTML, utilisation de rvest ou similaire en R)
 - Manipulation des données JSON d'une API
 - Limites de taux, directives éthiques de scraping, et CGU
 
 ### Contenu
+
 - Utilisation du package rvest
 - Accéder aux API REST avec httr ou curl, analyse JSON avec jsonlite
 - Éthique & légalité du scraping (robots.txt, confidentialité, etc.)
 
+### Lectures suggérées
+
+Lazer, D., Hargittai, E., Freelon, D., Gonzalez-Bailon, S., Munger, K., Ognyanova, K., & Radford, J. (2021). Meaningful measures of human society in the twenty-first century. Nature, 595(7866), 189‑196. https://doi.org/10.1038/s41586-021-03660-7
+
+Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). R for data science : Import, tidy, transform, visualize, and model data (2nd edition). O’Reilly. https://r4ds.hadley.nz/
+
+- Lire le chapitre 24 : Web scraping 
+
 ## Semaine 12 (27 mars) : LLM via API
 
 ### Objectifs principaux
+
 - Montrer comment utiliser les grands modèles linguistiques avec R 
 - Discuter de l'ingénierie de prompt de base, interpréter les résultats
 - Aborder les biais potentiels
 
 ### Contenu
+
 - Création de prompts structurés pour la génération ou classification de texte
 - Prix et utilisation des tokens—contraintes du monde réel
+
+### Lectures suggérées
+
+M. Foisy, L.-O., Drouin, J., Pelletier, C., Rivest, J., Cadieux, H., & Dufresne, Y. (2024). Ain’t no party like a GPT party : Assessing OpenAI’s GPT political alignment classification capabilities. Journal of Information Technology & Politics, 1‑13. https://doi.org/10.1080/19331681.2024.2444587
 
 ## Semaine 13 (3 avril) : Rencontres individuelles
 
 ### Objectifs principaux
+
 - Répondre aux questions ou blocages
 
 ### Contenu
-- Pas de nouveau cours. Consultations à propos du travail final
+
+- Consultations à propos du travail final
 - Préparation pour le Quiz 2
 
 ## Semaine 14 (10 avril) : Données non structurées (Images et audio) et Quiz 2
@@ -296,7 +377,7 @@ Quiz 2 en classe. Vous aurez 1 heure pour le compléter.
 :::
 
 ### Objectifs principaux
-- Introduction à l'analyse d'images (détection d'objets, classification) et audio (parole-en-texte, traitement du signal de base)
+- Introduction à l'analyse d'images (détection d'objets, classification) et audio (parole-en-texte)
 
 ### Contenu
 - Démonstration rapide : lecture d'images en R (package magick ou imager)
@@ -310,18 +391,55 @@ Quiz 2 en classe. Vous aurez 1 heure pour le compléter.
 
 ### Contenu
 - Bases de Shiny : UI + serveur, expressions réactives et graphiques
-- Déploiement sur shinyapps.io ou autres solutions d'hébergement
+- Déploiement sur shinyapps.io 
+
+### Lectures suggérées
+
+Wickham, H. (2021). Mastering Shiny : Build interactive apps, reports, and dashboards powered by R (First edition). O’Reilly.
+
+- Lire le chapitre d'introduction
 
 :::{.callout-important}
 Remise du TP Final le 30 avril 2025 avant minuit
 :::
+
+# Bibliographie
+
+Alexander, R. (2023). Telling stories with data : With applications in R (First edition). CRC Press.
+
+Arel-Bundock, V. (2021). Analyse causale et méthodes quantitatives : Une introduction avec R, Stata et SPSS. Presses de l’Université de Montréal.
+
+DeVellis, R. F., & Thorpe, C. T. (2022). Scale development : Theory and applications (Fifth edition). SAGE Publications, Inc.
+
+Grimmer, J., Roberts, M. E., & Stewart, B. M. (2022). Text as data : A new framework for machine learning and the social sciences. Princeton University Press.
+
+James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). An Introduction to Statistical Learning : With Applications in R. Springer US. https://doi.org/10.1007/978-1-0716-1418-1
+
+King, G., Keohane, R. O., & Verba, S. (1994). Designing social inquiry : Scientific inference in qualitative research. Princeton University Press.
+
+Lazer, D., Hargittai, E., Freelon, D., Gonzalez-Bailon, S., Munger, K., Ognyanova, K., & Radford, J. (2021). Meaningful measures of human society in the twenty-first century. Nature, 595(7866), 189‑196. https://doi.org/10.1038/s41586-021-03660-7
+
+M. Foisy, L.-O., Drouin, J., Pelletier, C., Rivest, J., Cadieux, H., & Dufresne, Y. (2024). Ain’t no party like a GPT party : Assessing OpenAI’s GPT political alignment classification capabilities. Journal of Information Technology & Politics, 1‑13. https://doi.org/10.1080/19331681.2024.2444587
+
+Salganik, M. J. (2019). Bit by bit : Social research in the digital age (First paperback printing). Princeton University Press.
+
+The tidyverse team. (2024). Tidyverse style guide. https://style.tidyverse.org/
+
+Wickham, H. (2014). Tidy Data. Journal of Statistical Software, 59(10). 
+
+Wickham, H. (2021). Mastering Shiny : Build interactive apps, reports, and dashboards powered by R (First edition). O’Reilly.
+
+Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). R for data science : Import, tidy, transform, visualize, and model data (2nd edition). O’Reilly. https://r4ds.hadley.nz/
+
+Young, L., & Soroka, S. (2012). Affective News : The Automated Coding of Sentiment in Political Texts. Political Communication, 29(2), 205‑231.
+
+Zook, M., Barocas, S., Boyd, D., Crawford, K., Keller, E., Gangadharan, S. P., Goodman, A., Hollander, R., Koenig, B. A., Metcalf, J., Narayanan, A., Nelson, A., & Pasquale, F. (2017). Ten simple rules for responsible big data research. PLOS Computational Biology, 13(3), e1005399. https://doi.org/10.1371/journal.pcbi.1005399
 
 # Rappel de règlements pédagogiques
 
 Veuillez prendre note que le trimestre commence le 8 janvier et se termine le 30 avril 2024 (incluant la période des examens) et que la présence physique est attendue à tous les cours. 
 Aucune demande d'examen différé ne sera acceptée sans motif valable. 
 Nous entendons par motif valable, un motif indépendant de votre volonté, tel que la force majeure, le cas fortuit ou une maladie attestée par un certificat de médecin.
-
 
 # Absence à un examen
 
