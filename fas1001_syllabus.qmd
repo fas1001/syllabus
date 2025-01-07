@@ -12,7 +12,7 @@ header-includes:
 
 **Horaire du cours:** Jeudi, 8h30 - 11h29
 
-**Local de cours:** À déterminer
+**Local de cours:** Pavillon Jean Brillant, local B-4290
 
 **Disponibilité:** Sur rendez-vous
 
