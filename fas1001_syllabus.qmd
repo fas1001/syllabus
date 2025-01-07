@@ -104,8 +104,8 @@ La ou les méthode-s utilisée-s pour analyser les données n'ont pas besoin d'�
 
 ## Quiz (30/100)
 
-**30% des points** seront alloués aux **quizz en classe**. 
-Les étudiant-es devront compléter deux quizz de 1h00 sur leurs ordinateurs qui permettront d'évaluer leurs connaissances à propos de la matière apprise en classe. 
+**30% des points** seront alloués aux **quiz en classe**. 
+Les étudiant-es devront compléter deux quiz de 1h00 sur leurs ordinateurs qui permettront d'évaluer leurs connaissances à propos de la matière apprise en classe. 
 
 - Quiz 1 : 13 février 2025
 - Quiz 2 : 10 avril 2025
@@ -136,7 +136,7 @@ Pour un ouvrage de référence en méthodes quantitatives, il est conseillé de 
 
 # Calendrier
 
-## Cours 1 (9 janvier) : Introduction
+## Semaine 1 (9 janvier) : Introduction
 
 ### Objectifs principaux
 
@@ -159,7 +159,7 @@ Salganik, M. J. (2019). Bit by bit : Social research in the digital age (First
 
 - Lire le chapitre 2.2 : Big Data 
 
-## Cours 2 (16 janvier) : Git, GitHub, Quarto, terminal et bonnes pratiques
+## Semaine 2 (16 janvier) : Git, GitHub, Quarto, terminal et bonnes pratiques
 
 ### Objectifs principaux
 
@@ -274,7 +274,7 @@ James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). An Introduction to S
 
 ### Objectifs principaux
 
-- Fournir un retour personnalisé sur le TP 1 et le quizz 1
+- Fournir un retour personnalisé sur le TP 1 et le quiz 1
 - Discuter des travaux de mi-session 
 
 ## Semaine 8 (27 février) : Introduction aux Données Textuelles + Infrastructures de Données
