@@ -80,7 +80,7 @@ Les travaux pratiques devront être mis sur votre compte GitHub **une journée a
 
 Voici les échéances des travaux pratiques à respecter :
 
-- Introduction à git, GitHub et Quarto : 22 janvier 2025
+- Introduction à git, GitHub et Quarto : 29 janvier 2025
 - Travail de mi-session : 12 mars 2025
 - Travail de session : 30 avril 2025
 
@@ -118,11 +118,11 @@ Les étudiant-es devront compléter deux quiz de 1h00 sur leurs ordinateurs qui 
 
 | Évaluations                     |Points   | Dates                        |
 |---------------------------------|---------|------------------------------|
-| Introduction à GitHub           | 10%     | 22 janvier 2025 avant minuit |
+| TP1 - Introduction              | 10%     | 29 janvier 2025 avant minuit |
 | Quiz 1                          | 15%     | 13 février 2025 en classe    |
-| Travail de mi-session           | 20%     | 12 mars 2024 avant minuit    |
+| TP2 - Travail de mi-session     | 20%     | 12 mars 2024 avant minuit    |
 | Quiz 2                          | 15%     | 10 avril 2025 en classe      |
-| Travail de session              | 30%     | 30 avril 2024 avant minuit   |
+| TP2 - Travail de session        | 30%     | 30 avril 2024 avant minuit   |
 | Participation en classe         | 10%     | 9 janvier au 30 avril        |
 | Total                           | 100%    | 9 janvier au 30 avril        |
 
@@ -179,10 +179,6 @@ Salganik, M. J. (2019). Bit by bit : Social research in the digital age (First
 
 The tidyverse team. (2024). Tidyverse style guide. https://style.tidyverse.org/
 
-:::{.callout-important}
-Remise du TP1 le 22 janvier 2025 avant minuit
-:::
-
 ## Semaine 3 (23 janvier) : Révision R (Chargement de données, dplyr, Fusion de bases de données, etc.) et introduction aux données structurées.
 
 ### Objectifs principaux
@@ -202,6 +198,10 @@ Remise du TP1 le 22 janvier 2025 avant minuit
 Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). R for data science : Import, tidy, transform, visualize, and model data (2nd edition). O’Reilly. https://r4ds.hadley.nz/
 
 - Lire le chapitre 3 : Data transformation
+
+:::{.callout-important}
+Remise du TP1 le 29 janvier 2025 avant minuit
+:::
 
 ## Semaine 4 (30 janvier) : Données de sondages, nettoyage, mesure d'un concept latent et éthique des données
 
@@ -248,36 +248,11 @@ James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). An Introduction to S
 - Lire le chapitre 12.2 : Principal Component Analysis 
 - Lire le chapitre 12.4 : Clustering Methods
 
-## Semaine 6 (13 février) : Données de sondages, apprentissage machine et Quiz 1
+## Semaine 6 (13 février) : Quiz 1, introduction aux données textuelles et infrastructures de données
 
 :::{.callout-important}
 Quiz 1 en classe. Vous aurez 1 heure pour le compléter.
 :::
-
-### Objectifs principaux
-
-- Montrer comment l'apprentissage automatique supervisé peut être utilisé pour prédire un résultat à partir de variables de sondage
-
-### Contenu
-
-- Révision rapide de la régression linéaire vs. logistique en R
-- Introduction aux arbres de décision ou random forest pour la classification
-- Surapprentissage, validation croisée, métriques de performance de base
-
-### Lectures suggérées
-
-James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). An Introduction to Statistical Learning : With Applications in R. Springer US. https://doi.org/10.1007/978-1-0716-1418-1
-
-- Lire le chapitre 8.1 : The Basics of Decision Trees 
-
-## Semaine 7 (20 février) : Rencontres individuelles
-
-### Objectifs principaux
-
-- Fournir un retour personnalisé sur le TP 1 et le quiz 1
-- Discuter des travaux de mi-session 
-
-## Semaine 8 (27 février) : Introduction aux Données Textuelles + Infrastructures de Données
 
 ### Objectifs principaux
 
@@ -295,17 +270,14 @@ Grimmer, J., Roberts, M. E., & Stewart, B. M. (2022). Text as data : A new fra
 
 - Lire le chapitre 2 : Social Science Research and Text Analysis 
 
-## Semaine 9 (6 mars) : Semaine de Lecture
+## Semaine 7 (20 février) : Rencontres individuelles
 
 ### Objectifs principaux
 
-- Compléter le travail de mi-session
+- Fournir un retour personnalisé sur le TP 1 et le quiz 1
+- Discuter des travaux de mi-session 
 
-:::{.callout-important}
-Remise du TP2 le 12 mars 2025 avant minuit
-:::
-
-## Semaine 10 (13 mars) : Données textuelles et méthodes d'analyse
+## Semaine 8 (27 février) : Données textuelles et méthodes d'analyse
 
 ### Objectifs principaux
 
@@ -322,7 +294,17 @@ Remise du TP2 le 12 mars 2025 avant minuit
 
 Young, L., & Soroka, S. (2012). Affective News : The Automated Coding of Sentiment in Political Texts. Political Communication, 29(2), 205‑231. https://doi.org/10.1080/10584609.2012.671234
 
-## Semaine 11 (20 mars) : Web Scraping, Introduction à HTML, API
+## Semaine 9 (6 mars) : Semaine de Lecture
+
+### Objectifs principaux
+
+- Compléter le travail de mi-session
+
+:::{.callout-important}
+Remise du TP2 le 12 mars 2025 avant minuit
+:::
+
+## Semaine 10 (13 mars) : Web Scraping, Introduction à HTML, API
 
 ### Objectifs principaux
 
@@ -344,7 +326,7 @@ Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). R for data science�
 
 - Lire le chapitre 24 : Web scraping 
 
-## Semaine 12 (27 mars) : LLM via API
+## Semaine 11 (20 mars) : LLM via API
 
 ### Objectifs principaux
 
@@ -361,6 +343,15 @@ Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). R for data science�
 
 M. Foisy, L.-O., Drouin, J., Pelletier, C., Rivest, J., Cadieux, H., & Dufresne, Y. (2024). Ain’t no party like a GPT party : Assessing OpenAI’s GPT political alignment classification capabilities. Journal of Information Technology & Politics, 1‑13. https://doi.org/10.1080/19331681.2024.2444587
 
+## Semaine 12 (27 mars) : Données non structurées (Images et audio)
+
+### Objectifs principaux
+- Introduction à l'analyse d'images (détection d'objets, classification) et audio (parole-en-texte)
+
+### Contenu
+- Démonstration rapide : lecture d'images en R (package magick ou imager)
+- Pipeline conceptuel de base pour la classification d'images 
+
 ## Semaine 13 (3 avril) : Rencontres individuelles
 
 ### Objectifs principaux
@@ -372,26 +363,19 @@ M. Foisy, L.-O., Drouin, J., Pelletier, C., Rivest, J., Cadieux, H., & Dufresne,
 - Consultations à propos du travail final
 - Préparation pour le Quiz 2
 
-## Semaine 14 (10 avril) : Données non structurées (Images et audio) et Quiz 2
+## Semaine 14 (10 avril) : Quiz 2 et introduction à R Shiny pour la visualisation intéractive
 
 :::{.callout-important}
 Quiz 2 en classe. Vous aurez 1 heure pour le compléter.
 :::
 
 ### Objectifs principaux
-- Introduction à l'analyse d'images (détection d'objets, classification) et audio (parole-en-texte)
 
-### Contenu
-- Démonstration rapide : lecture d'images en R (package magick ou imager)
-- Pipeline conceptuel de base pour la classification d'images 
-
-## Semaine 15 (17 avril) : Introduction à R Shiny
-
-### Objectifs principaux
 - Enseigner comment faire une application web interactive ou tableau de bord en R pour présenter des analyses
 - Résumer l'ensemble du cours en se concentrant sur la communication des résultats
 
 ### Contenu
+
 - Bases de Shiny : UI + serveur, expressions réactives et graphiques
 - Déploiement sur shinyapps.io 
 
@@ -400,6 +384,12 @@ Quiz 2 en classe. Vous aurez 1 heure pour le compléter.
 Wickham, H. (2021). Mastering Shiny : Build interactive apps, reports, and dashboards powered by R (First edition). O’Reilly.
 
 - Lire le chapitre d'introduction
+
+## Semaine 15 (17 avril) : Semaine d'examens
+
+### Objectifs principaux
+
+- Terminer le travail de session
 
 :::{.callout-important}
 Remise du TP Final le 30 avril 2025 avant minuit
