@@ -1,18 +1,20 @@
 ---
-title: "Introduction aux mégadonnées en sciences sociales (FAS 1001)"
+title: "Introduction aux mégadonnées en sciences sociales\nFAS 1001"
 author:
-  - "Hiver 2025 \\ "
+  - "Hiver 2026 \\ "
 format: pdf
-urlcolor: red
+urlcolor: blue
 header-includes:
   - \usepackage{authblk}
+  - \usepackage{tgtermes}
+  - \addtokomafont{disposition}{\rmfamily\bfseries}
 ---
 
 <!-- \thispagestyle{empty} Remove page numbers --->
 
 **Horaire du cours:** Jeudi, 8h30 - 11h29
 
-**Local de cours:** Me contacter pour le local
+**Local de cours:** En ligne sur Zoom
 
 **Disponibilité:** Sur rendez-vous
 
@@ -39,7 +41,7 @@ Jamais autant de données n'ont été disponibles pour comprendre les comporteme
 De nouveaux outils de recherche nous permettent désormais de quantifier des données difficilement analysables auparavant, tels que de larges corpus de textes, des images ou des fichiers audio et vidéo. 
 Comment collecter, traiter et analyser ces nouvelles données? 
 Comment combiner ces nouvelles données avec celles déjà largement utilisées en sciences sociales comme les données de sondages? 
-Quels sont les enjeux techniques et éthiques que soulève l'utilisation de ces données en recherche dans le contexte d'un développement important de l'intelligence artificielle et de l'application croissante de l'apprentissage par machines en sciences sociales? 
+Quels sont les enjeux techniques et éthiques que soulève l'utilisation de ces données en recherche dans le contexte d'un développement important de l'intelligence artificielle et de l'application croissante de l'apprentissage automatique en sciences sociales? 
 Ce cours aborde ces nombreux enjeux avec une ***approche pratique*** de l'utilisation des mégadonnées en sciences sociales.
 
 À la fin de ce cours, les objectifs suivants seront atteints:
@@ -54,16 +56,16 @@ Ce cours aborde ces nombreux enjeux avec une ***approche pratique*** de l'utilis
 
 Le langage de programmation utilisé pour ce cours est R. 
 Ce dernier est téléchargeable gratuitement [ici](https://cran.r-project.org/). 
-Bien que plusieurs options soient possibles, vous devez également télécharger RStudio, disponible [ici](https://posit.co/download/rstudio-desktop/). 
-RStudio est l'environnement de développement intégré de prédilection pour coder en R. 
+Bien que plusieurs options soient possibles, vous devez également télécharger Positron, disponible [ici](https://positron.posit.co/download.html). 
+Positron est l'environnement de développement intégré de prédilection pour coder en R. 
 Il facilite l’édition et le débogage de votre code. Il met également à votre disposition les outils nécessaires pour transformer, prévisualiser et analyser vos données de manière efficace. 
-Les étudiant-es devront, si ce n'est pas déjà fait, créer un compte [GitHub](https://github.com/) lors du premier cours, afin de remettre leurs codes de travaux pratiques et de travaux de session. 
+Les étudiant-es devront, si ce n'est pas déjà fait, créer un compte [GitHub](https://github.com/) lors du premier cours afin de remettre leurs travaux pratiques et travaux de session. 
 GitHub est un service web d’hébergement de code et de gestion de projets, largement utilisé en industrie pour le partage de scripts et de logiciels. 
 Cela permettra de familiariser les étudiant-es avec son utilisation.
 
-Le bon déroulement de ce cours nécessite que vous ayez un ordinateur, notamment pour les nombreux ateliers pratiques lors des classes. Si vous n'avez pas d'ordinateur, une solution sera trouvée, afin que vous puissiez participer aux activités en classe.
+Le bon déroulement de ce cours nécessite que vous ayez un ordinateur, notamment pour les nombreux ateliers pratiques lors des classes. Si vous n'avez pas d'ordinateur, une solution sera trouvée afin que vous puissiez participer aux activités en classe.
 
-Les élèves doivent télécharger Slack [ici](https://slack.com/intl/fr-ca/downloads/windows) pour communiquer avec le chargé de cours et les autres étudiant-es. Slack est une plateforme de communication collaborative qui permet de partager des fichiers, de poser des questions et de discuter en temps réel. Ce canal de communication sera privilégié aux courriels pour les questions en dehors des heures de cours.
+Les élèves doivent télécharger Slack [ici](https://slack.com/intl/fr-ca/downloads/) pour communiquer avec le chargé de cours et les autres étudiant-es. Slack est une plateforme de communication collaborative qui permet de partager des fichiers, de poser des questions et de discuter en temps réel. Ce canal de communication sera privilégié aux courriels pour les questions en dehors des heures de cours.
 
 # Site du cours
 
@@ -80,9 +82,9 @@ Les travaux pratiques devront être mis sur votre compte GitHub **une journée a
 
 Voici les échéances des travaux pratiques à respecter :
 
-- Introduction à git, GitHub et Quarto : 29 janvier 2025
-- Travail de mi-session : 12 mars 2025
-- Travail de session : 30 avril 2025
+- Introduction à git, GitHub et Quarto : 28 janvier 2026
+- Travail de mi-session : 11 mars 2026
+- Travail de session : 30 avril 2026
 
 ### TP1 : Introduction à git, GitHub, et Quarto (10/100)
 
@@ -105,26 +107,26 @@ La ou les méthode-s utilisée-s pour analyser les données n'ont pas besoin d'�
 ## Quiz (30/100)
 
 **30% des points** seront alloués aux **quiz en classe**. 
-Les étudiant-es devront compléter deux quiz de 1h00 sur leurs ordinateurs qui permettront d'évaluer leurs connaissances à propos de la matière apprise en classe. 
+Les étudiant-es devront compléter deux quiz sur leurs ordinateurs qui permettront d'évaluer leurs connaissances à propos de la matière apprise en classe. 
 
-- Quiz 1 : 13 février 2025
-- Quiz 2 : 10 avril 2025
+- Quiz 1 : 5 février 2026
+- Quiz 2 : 9 avril 2026
 
-## Participation en classe (10/100)
+## Participation sur Zoom (10/100)
 
-**10% des points** seront alloués à **la participation en classe**. L'entraide entre les étudiant-es est encouragée (évaluation et correction de code sur GitHub et entraide sur Slack.
+**10% des points** seront alloués à **la participation sur Zoom**. L'entraide entre les étudiant-es est encouragée (évaluation et correction de code sur GitHub et entraide sur Slack).
 
 ## Résumé des évaluations
 
 | Évaluations                     |Points   | Dates                        |
 |---------------------------------|---------|------------------------------|
-| TP1 - Introduction              | 10%     | 29 janvier 2025 avant minuit |
-| Quiz 1                          | 15%     | 13 février 2025 en classe    |
-| TP2 - Travail de mi-session     | 20%     | 12 mars 2024 avant minuit    |
-| Quiz 2                          | 15%     | 10 avril 2025 en classe      |
-| TP3 - Travail de session        | 30%     | 30 avril 2024 avant minuit   |
-| Participation en classe         | 10%     | 9 janvier au 30 avril        |
-| Total                           | 100%    | 9 janvier au 30 avril        |
+| TP1 - Introduction              | 10%     | 28 janvier 2026 avant minuit |
+| Quiz 1                          | 15%     | 5 février 2026     |
+| TP2 - Travail de mi-session     | 20%     | 11 mars 2026 avant minuit    |
+| Quiz 2                          | 15%     | 9 avril 2026      |
+| TP3 - Travail de session        | 30%     | 30 avril 2026 avant minuit   |
+| Participation en classe         | 10%     | 8 janvier 2026 au 30 avril 2026        |
+| Total                           | 100%    | 8 janvier 2026 au 30 avril 2026       |
 
 # Lectures
 
@@ -136,13 +138,13 @@ Pour un ouvrage de référence en méthodes quantitatives, il est conseillé de 
 
 # Calendrier
 
-## Semaine 1 (9 janvier) : Introduction
+## Semaine 1 (8 janvier) : Introduction
 
 ### Objectifs principaux
 
 - Présenter la structure du cours, les ressources et le système d'évaluation
 - Introduire Slack, le site web du cours, le GitHub du cours
-- Télécharger R et RStudio, s'inscrire sur GitHub
+- Télécharger R et Positron, s'inscrire sur GitHub
 
 ### Contenu
 
@@ -159,31 +161,12 @@ Salganik, M. J. (2019). Bit by bit : Social research in the digital age (First
 
 - Lire le chapitre 2.2 : Big Data 
 
-## Semaine 2 (16 janvier) : Git, GitHub, Quarto, terminal et bonnes pratiques
+## Semaine 2 (15 janvier) : Introduction à R 
 
 ### Objectifs principaux
 
-- S'assurer que les étudiants maîtrisent les bases du contrôle de version
-- Leur montrer comment créer des documents reproductibles (Quarto)
-- Établir une "hygiène numérique" pour l'organisation des fichiers, les conventions de nommage, les sauvegardes
-
-### Contenu
-
-- Principes fondamentaux de git : git add/commit/push/pull, branches, résolution de conflits mineurs
-- GitHub : stockage des dépôts, fork, pull requests (collaboration)
-- Bases de Quarto : création de documents, rendu du code R dans les fichiers .qmd
-- Commandes Terminal : navigation (ls, cd, mkdir, rm), édition de texte
-- Intégration de RStudio avec Git/GitHub
-
-### Lectures suggérées
-
-The tidyverse team. (2024). Tidyverse style guide. https://style.tidyverse.org/
-
-## Semaine 3 (23 janvier) : Révision R (Chargement de données, dplyr, Fusion de bases de données, etc.) et introduction aux données structurées.
-
-### Objectifs principaux
-
-- Donner un aperçu ou une révision sur la manipulation des données R (dplyr)
+- Introduire le langage de programmation R
+- Donner un aperçu de la manipulation des données R (dplyr)
 - S'assurer que tout le monde peut gérer csv/rds/sav, faire des fusions/jointures, des résumés basiques
 
 ### Contenu
@@ -199,23 +182,42 @@ Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). R for data science�
 
 - Lire le chapitre 3 : Data transformation
 
+## Semaine 3 (22 janvier) : Introduction à git, GitHub et Quarto
+
+### Objectifs principaux
+
+- S'assurer que les étudiants maîtrisent les bases du contrôle de version
+- Montrer comment créer des documents en Markdown (Quarto)
+- Établir une "hygiène numérique" pour l'organisation des fichiers, les conventions de nommage, les sauvegardes
+
+### Contenu
+
+- Principes fondamentaux de git : git add/commit/push/pull, branches, résolution de conflits mineurs
+- GitHub : stockage des dépôts, fork, pull requests (collaboration)
+- Bases de Quarto : création de documents, rendu du code R dans les fichiers .qmd
+- Commandes Terminal : navigation (ls, cd, mkdir, rm), édition de texte
+- Intégration de Positron avec Git/GitHub
+
+### Lectures suggérées
+
+The tidyverse team. (2024). Tidyverse style guide. https://style.tidyverse.org/
+
 :::{.callout-important}
-Remise du TP1 le 29 janvier 2025 avant minuit
+Remise du TP1 le 28 janvier 2026 avant minuit
 :::
 
-## Semaine 4 (30 janvier) : Données de sondages, nettoyage, mesure d'un concept latent et éthique des données
+## Semaine 4 (29 janvier) :  Les données structurées en sciences sociales
 
 ### Objectifs principaux
 
 - Introduire les données structurées typiques en sciences sociales
-- Explorer comment mesurer les variables latentes avec l'analyse factorielle, l'alpha de Cronbach, etc.
-- Introduire l'éthique des données
+- Analyser des données de sondages
 
 ### Contenu
 
+- Tidydata : Des lignes et des colonnes
 - Conception de sondages, types de questions (Likert, échelle, etc.)
 - Spécificités du nettoyage des données
-- Analyse factorielle simple ou vérifications de fiabilité pour mesurer une variable latente
 - Éthique de base des données
 
 ### Lectures suggérées
@@ -224,45 +226,53 @@ Wickham, H. (2014). Tidy Data. Journal of Statistical Software, 59(10).
 
 Zook, M., Barocas, S., Boyd, D., Crawford, K., Keller, E., Gangadharan, S. P., Goodman, A., Hollander, R., Koenig, B. A., Metcalf, J., Narayanan, A., Nelson, A., & Pasquale, F. (2017). Ten simple rules for responsible big data research. PLOS Computational Biology, 13(3), e1005399. https://doi.org/10.1371/journal.pcbi.1005399
 
+## Semaine 5 (5 février) : Quiz 1
+
+:::{.callout-important}
+Quiz 1. Vous aurez 3 heures pour le compléter.
+:::
+
+## Semaine 6 (12 février) : Les mesures et les régressions
+
+### Objectifs principaux
+
+- Introduire les mesures de variables latentes avec l'analyse factorielle.
+- Introduire les régressions et leur interprétation.
+
+### Contenu
+
+- Analyse factorielle simple ou vérifications de fiabilité pour mesurer une variable latente
+- Révision des statistiques descriptives pour les données multi-variables
+- Introduction aux régressions 
+- Comment interpréter une régression?
+
+### Lectures suggérées
+
 DeVellis, R. F., & Thorpe, C. T. (2022). Scale development : Theory and applications (Fifth edition). SAGE Publications, Inc.
 
 - Lire le chapitre 2 : Understanding the Latent Variable
 
-## Semaine 5 (6 février) : Données de sondages, PCA et clustering
+## Semaine 7 (19 février) : Rencontres individuelles
 
 ### Objectifs principaux
 
-- Approfondir l'apprentissage non supervisé (clustering) dans le contexte des données de sondage
-- Montrer comment interpréter les clusters (segments de groupe, par ex., typologie politique)
+- Fournir un retour personnalisé sur le TP 1 et le quiz 1
+- Discuter des travaux de mi-session 
 
-### Contenu
-
-- Révision des statistiques descriptives pour les données multi-variables
-- K-means ou clustering hiérarchique sur données d'enquête (par ex., attitudes des répondants)
-- Interprétation des centres de clusters, scores silhouette, ou diagnostics de base des clusters
-
-### Lectures suggérées
-
-James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). An Introduction to Statistical Learning : With Applications in R. Springer US. https://doi.org/10.1007/978-1-0716-1418-1
-
-- Lire le chapitre 12.2 : Principal Component Analysis 
-- Lire le chapitre 12.4 : Clustering Methods
-
-## Semaine 6 (13 février) : Quiz 1, introduction aux données textuelles et infrastructures de données
-
-:::{.callout-important}
-Quiz 1 en classe. Vous aurez 1 heure pour le compléter.
-:::
+## Semaine 8 (26 février) : Données textuelles et méthodes d'analyse
 
 ### Objectifs principaux
 
-- Transition vers des données moins structurées (texte)
-- Donner un aperçu du stockage/infrastructure des données au niveau conceptuel : du CSV local aux bases de données relationnelles.
+- Transitionner vers des données moins structurées (texte)
+- Apprendre à Manipuler du texte (tokenisation, mots vides)
+- Introduire l'analyse de sentiment et la modélisation de sujets
 
 ### Contenu
 
 - Pourquoi les données textuelles sont importantes en sciences sociales (tweets, actualités, transcriptions)
-- Considérer la taille des données : stockage local vs. cloud
+- Approche tidytext en R (tokenisation, suppression des mots vides, etc.)
+- Analyse de sentiment de base
+- Introduction à la modélisation de sujets (LDA) si le temps le permet
 
 ### Lectures suggérées
 
@@ -270,47 +280,25 @@ Grimmer, J., Roberts, M. E., & Stewart, B. M. (2022). Text as data : A new fra
 
 - Lire le chapitre 2 : Social Science Research and Text Analysis 
 
-## Semaine 7 (20 février) : Rencontres individuelles
-
-### Objectifs principaux
-
-- Fournir un retour personnalisé sur le TP 1 et le quiz 1
-- Discuter des travaux de mi-session 
-
-## Semaine 8 (27 février) : Données textuelles et méthodes d'analyse
-
-### Objectifs principaux
-
-- Fournir plus de détails sur la manipulation de texte (tokenisation, mots vides)
-- Analyse de sentiment et modélisation de sujets
-
-### Contenu
-
-- Approche tidytext en R (tokenisation, suppression des mots vides, etc.)
-- Analyse de sentiment de base
-- (Optionnel) Introduction à la modélisation de sujets (LDA) si le temps le permet
-
-### Lectures suggérées
-
 Young, L., & Soroka, S. (2012). Affective News : The Automated Coding of Sentiment in Political Texts. Political Communication, 29(2), 205‑231. https://doi.org/10.1080/10584609.2012.671234
 
-## Semaine 9 (6 mars) : Semaine de Lecture
+## Semaine 9 (5 mars) : Semaine de Lecture
 
-### Objectifs principaux
+### Objectif principaux
 
 - Compléter le travail de mi-session
 
 :::{.callout-important}
-Remise du TP2 le 12 mars 2025 avant minuit
+Remise du TP2 le 11 mars 2026 avant minuit
 :::
 
-## Semaine 10 (13 mars) : Web Scraping, Introduction à HTML, API
+## Semaine 10 (12 mars) : Web Scraping
 
 ### Objectifs principaux
 
 - Enseigner le scraping de base (structure HTML, utilisation de rvest ou similaire en R)
-- Manipulation des données JSON d'une API
-- Limites de taux, directives éthiques de scraping, et CGU
+- Introduire la manipulation des données JSON d'une API
+- Discuter des directives éthiques du scraping
 
 ### Contenu
 
@@ -326,74 +314,77 @@ Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). R for data science�
 
 - Lire le chapitre 24 : Web scraping 
 
-## Semaine 11 (20 mars) : LLM via API
+## Semaine 11 (19 mars) : LLM
 
 ### Objectifs principaux
 
-- Montrer comment utiliser les grands modèles linguistiques avec R 
+- Utiliser les grands modèles linguistiques avec R 
 - Discuter de l'ingénierie de prompt de base, interpréter les résultats
 - Aborder les biais potentiels
 
 ### Contenu
 
 - Création de prompts structurés pour la génération ou classification de texte
-- Prix et utilisation des tokens—contraintes du monde réel
+- Prix et utilisation des tokens et contraintes du monde réel
 
 ### Lectures suggérées
 
 M. Foisy, L.-O., Drouin, J., Pelletier, C., Rivest, J., Cadieux, H., & Dufresne, Y. (2024). Ain’t no party like a GPT party : Assessing OpenAI’s GPT political alignment classification capabilities. Journal of Information Technology & Politics, 1‑13. https://doi.org/10.1080/19331681.2024.2444587
 
-## Semaine 12 (27 mars) : Données non structurées (Images et audio)
+## Semaine 12 (26 mars) : Rencontres individuelles
 
 ### Objectifs principaux
-- Introduction à l'analyse d'images (détection d'objets, classification) et audio (parole-en-texte)
+
+- Offrir des consultations à propos du travail final
+- Préparer le Quiz 2
+
+## Semaine 13 (2 avril) : Analyse d'images et audio
+
+### Objectif principaux
+- Introduire l'analyse d'images (détection d'objets, classification) et audio (parole-en-texte)
 
 ### Contenu
 - Démonstration rapide : lecture d'images en R (package magick ou imager)
 - Pipeline conceptuel de base pour la classification d'images 
 
-## Semaine 13 (3 avril) : Rencontres individuelles
+## Semaine 14 (9 avril) : Conclusion
 
 ### Objectifs principaux
 
-- Répondre aux questions ou blocages
+- Revoir les concepts clés du cours
+- Discuter des applications futures des mégadonnées en sciences sociales
 
-### Contenu
-
-- Consultations à propos du travail final
-- Préparation pour le Quiz 2
-
-## Semaine 14 (10 avril) : Quiz 2 et introduction à R Shiny pour la visualisation intéractive
+## Semaine 15 (16 avril) : Quiz 2
 
 :::{.callout-important}
-Quiz 2 en classe. Vous aurez 1 heure pour le compléter.
+Quiz 2. Vous aurez 3 heures pour le compléter.
 :::
-
-### Objectifs principaux
-
-- Enseigner comment faire une application web interactive ou tableau de bord en R pour présenter des analyses
-- Résumer l'ensemble du cours en se concentrant sur la communication des résultats
-
-### Contenu
-
-- Bases de Shiny : UI + serveur, expressions réactives et graphiques
-- Déploiement sur shinyapps.io 
-
-### Lectures suggérées
-
-Wickham, H. (2021). Mastering Shiny : Build interactive apps, reports, and dashboards powered by R (First edition). O’Reilly.
-
-- Lire le chapitre d'introduction
-
-## Semaine 15 (17 avril) : Semaine d'examens
-
-### Objectifs principaux
-
-- Terminer le travail de session
 
 :::{.callout-important}
-Remise du TP3 le 30 avril 2025 avant minuit
+Remise du TP3 le 30 avril 2026 avant minuit
 :::
+
+\newpage
+
+## Calendrier  récapitulatif
+
+| Semaine | Date (2026) | Thème | Évaluations / Notes |
+| :--- | :--- | :--- | :--- |
+| 1 | 8 janvier | Mégadonnées en sciences sociales | |
+| 2 | 15 janvier | Introduction à R | |
+| 3 | 22 janvier | git, GitHub et Quarto | |
+| 4 | 29 janvier | Données structurées | |
+| 5 | 5 février | **Quiz 1** | **Quiz 1** |
+| 6 | 12 février | Les mesures et les régressions | |
+| 7 | 19 février | Rencontres individuelles | |
+| 8 | 26 février | Données textuelles | |
+| 9 | **5 mars** | **Semaine de lecture** | *Aucun cours* |
+| 10 | 12 mars | Web Scraping | |
+| 11 | 19 mars | LLM | |
+| 12 | 26 mars | Rencontres individuelles | |
+| 13 | 2 avril | Analyse d'images et audio | |
+| 14 | 9 avril | **Quiz 2** | **Quiz 2** |
+| 15 | 16 avril | Semaine d'examens / Fin | *Aucun cours* |
 
 # Bibliographie
 
@@ -429,18 +420,18 @@ Zook, M., Barocas, S., Boyd, D., Crawford, K., Keller, E., Gangadharan, S. P., G
 
 # Rappel de règlements pédagogiques
 
-Veuillez prendre note que le trimestre commence le 8 janvier et se termine le 30 avril 2024 (incluant la période des examens) et que la présence physique est attendue à tous les cours. 
+Veuillez prendre note que le trimestre commence le mercredi 7 janvier et se termine le jeudi 30 avril 2026 (incluant la période des examens) et que la présence est attendue à tous les cours. 
 Aucune demande d'examen différé ne sera acceptée sans motif valable. 
 Nous entendons par motif valable, un motif indépendant de votre volonté, tel que la force majeure, le cas fortuit ou une maladie attestée par un certificat de médecin.
 
 # Absence à un examen
 
-Il est de votre responsabilité de motiver, en remplissant le formulaire disponible dans le [Centre étudiant](https://academique-dmz.synchro.umontreal.ca/psc/acprpr9/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL&cmd=login&languageCd=CFR&userid=CAS&pwd=z?PortalActualURL=https%3a%2f%2facademique-dmz.synchro.umontreal.ca%2fpsc%2facprpr9%2fEMPLOYEE%2fSA%2fc%2fNUI_FRAMEWORK.PT_LANDINGPAGE.GBL%26cmd%3dlogin%26languageCd%3dCFR%26userid%3dCAS%26pwd%3dz&PortalRegistryName=EMPLOYEE&PortalServletURI=https%3a%2f%2facademique-dmz.synchro.umontreal.ca%2fpsp%2facprpr9%2f&PortalURI=https%3a%2f%2facademique-dmz.synchro.umontreal.ca%2fpsc%2facprpr9%2f&PortalHostNode=SA&NoCrumbs=yes&PortalKeyStruct=yes), toute absence à une évaluation ou à un cours faisant l'objet d'une évaluation continue dès que vous serez en mesure de constater que vous ne pourrez pas vous présenter à une évaluation. 
+Il est de votre responsabilité de motiver, en remplissant le formulaire disponible dans le [Centre étudiant](https://registraire.umontreal.ca/publications-et-ressources/formulaires/), toute absence à une évaluation ou à un cours faisant l'objet d'une évaluation continue dès que vous serez en mesure de constater que vous ne pourrez pas vous présenter à une évaluation. 
 Vous devez obligatoirement fournir les pièces justificatives dans les sept jours suivant l'absence.
 
 # Délais pour la remise d'un travail
 
-Vous devez motiver, en remplissant le formulaire disponible dans le [Centre étudiant](https://academique-dmz.synchro.umontreal.ca/psc/acprpr9/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL&cmd=login&languageCd=CFR&userid=CAS&pwd=z?PortalActualURL=https%3a%2f%2facademique-dmz.synchro.umontreal.ca%2fpsc%2facprpr9%2fEMPLOYEE%2fSA%2fc%2fNUI_FRAMEWORK.PT_LANDINGPAGE.GBL%26cmd%3dlogin%26languageCd%3dCFR%26userid%3dCAS%26pwd%3dz&PortalRegistryName=EMPLOYEE&PortalServletURI=https%3a%2f%2facademique-dmz.synchro.umontreal.ca%2fpsp%2facprpr9%2f&PortalURI=https%3a%2f%2facademique-dmz.synchro.umontreal.ca%2fpsc%2facprpr9%2f&PortalHostNode=SA&NoCrumbs=yes&PortalKeyStruct=yes), toute demande de délai pour la remise d'un travail et fournir les pièces justificatives dès que vous êtes en mesure de constater que vous ne pourrez pas remettre à temps le travail.
+Vous devez motiver, en remplissant le formulaire disponible dans le [Centre étudiant](https://registraire.umontreal.ca/publications-et-ressources/formulaires/), toute demande de délai pour la remise d'un travail et fournir les pièces justificatives dès que vous êtes en mesure de constater que vous ne pourrez pas remettre à temps le travail.
 
 La pénalité imposée pour les retards dans la remise des travaux est de 10 points de pourcentage par jour. 
 Cette pénalité est calculée en déduisant 10 points de pourcentage à la note obtenue pour le travail en question. 
@@ -458,7 +449,7 @@ Plagier peut entrainer un échec, la suspension ou le renvoi de l'Université.
 
 # Bibliothécaire et règles bibliographiques
 
-Il est obligatoire de respecter les règles de présentation et de citations/références (modèle de Chicago pour les travaux et examens-maison du Département de science politique. 
+Il est obligatoire de respecter les règles de présentation et de citations/références : Modèle de Chicago pour les travaux et examens-maison du Département de science politique.
 Deux guides à cet effet sont disponibles sur le site du département aux adresses suivantes: Pour la présentation des travaux:
 
 <https://bib.umontreal.ca/economie-politique-relations-industrielles/science-politique>
@@ -469,11 +460,19 @@ Pour les citations et références:
 
 N'hésitez pas à profiter des services de la bibliothécaire spécialisée en science politique [Julia Généreux Randall](mailto:julia.genereux.randall@umontreal.ca). Vous pouvez la rejoindre à son bureau (local 3017 de la Bibliothèque des lettres et sciences humaines, Pavillon Samuel-Bronfman) ou lui envoyer un courriel. La BLSH met aussi à disposition un [Guide internet](https://bib.umontreal.ca/economie-politique-relations-industrielles/science-politique), point de départ idéal pour toute recherche documentaire en science politique.
 
+
+# Intégrité intellectuelle et usage de l’IA générative (IAg)
+
+Le [Règlement disciplinaire sur le plagiat et la fraude](https://secretariatgeneral.umontreal.ca/secretariat-general/nouvelles/detail-dune-nouvelle/news/detail/News/mise-a-jour-des-reglements-disciplinaires-sur-le-plagiat-et-la-fraude/) interdit l’utilisation totale ou partielle d’un texte, d’une image ou de toute autre création généré par un système d’intelligence artificielle dans le cadre de vos travaux ou examens, à moins d’autorisation explicite de la part de la personne responsable du cours (article 1.2 o).
+ 
+Lorsqu’elle est permise, l’utilisation des outils d’IA générative doit être clairement référencée. Le site Web des Bibliothèques de l’Université de Montréal propose des [modèles](https://boite-outils.bib.umontreal.ca/trouver-evaluer/iag?p=5377614) pour citer la source. Certaines évaluations sont soumises à un formulaire de déclaration de l’utilisation de l’intelligence artificielle générative ou aux consignes précises de la personne responsable du cours.  
+
+Nous vous encourageons à prendre connaissance de la [boîte à outils](https://boite-outils.bib.umontreal.ca/c.php?g=739631) sur l’usage de l’intelligence artificielle générative proposé par les Bibliothèques de l’Université de Montréal. L’objectif est de favoriser le développement de vos compétences rédactionnelles, analytiques et méthodologiques, ainsi que de vous sensibiliser à un usage éthique et critique de ces outils.
+
 # Le harcèlement, y compris à caractère sexuel
 
 Il incombe à chaque membre de la communauté universitaire de se conduire avec respect en tout temps envers tout le monde. 
 En particulier, le Département de science politique s'engage à créer un milieu accueillant et sécuritaire pour toutes et tous, quelle que soit leur identité.
-
 
 Les documents suivants ont des démarches pratiques à suivre : Si vous pensez que vous vivez du harcèlement : <https://respect.umontreal.ca/obtenir-de-laide/vous-vivez-une-situation-difficile/>. 
 Si on s'est confié à vous ou si vous êtes témoin de harcèlement : <https://respect.umontreal.ca/obtenir-de-laide/vous-avez-ete-temoin-dune-situation/>. 
