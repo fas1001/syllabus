@@ -383,8 +383,8 @@ Remise du TP3 le 30 avril 2026 avant minuit
 | 11 | 19 mars | LLM | |
 | 12 | 26 mars | Rencontres individuelles | |
 | 13 | 2 avril | Analyse d'images et audio | |
-| 14 | 9 avril | **Quiz 2** | **Quiz 2** |
-| 15 | 16 avril | Semaine d'examens / Fin | *Aucun cours* |
+| 14 | 9 avril | Conclusion | **Quiz 2** |
+| 15 | 16 avril | **Quiz 2** | **Quiz 2** |
 
 # Bibliographie
 
